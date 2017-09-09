@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pokemons</title>
+  <title>Pokemón</title>
   <script src="data/pokemonNames.js"></script>
   <script src="data/pokemons.js"></script>
   <link rel="stylesheet" href="css/semantic.min.css">
@@ -13,12 +13,17 @@
 <body>
 
   <div id="main" class="ui container segment">
-    <h1 class="ui dividing header centered">All Pokemons</h1>
+    <h1 class="ui dividing header centered">All Pokemón</h1>
+    <div class="fluid ui icon input focus">
+      <input type="text" id="search" placeholder="Search...">
+      <i class="search icon"></i>
+    </div>
+    <div class="ui divider"></div>
     <div id="pokemon-container" class="ui stackable four column grid">
 
     </div>
     <div class="ui divider"></div>
-    <div class="ui center aligned">
+    <div style="text-align:center">
       <button id="previous" class="ui button">
         Previous
       </button>

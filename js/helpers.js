@@ -18,6 +18,23 @@ const helper = (function () {
         newTag.setAttribute(attribute, options[attribute]);
       }
       return newTag;
+    },
+    changeButtonColors: function(next, previous, listLength) {
+      const inactive = "ui button";
+      const active = "ui primary button";
+
+      if (offset === 0) {
+        previous.setAttribute("class", inactive);
+        next.setAttribute("class", active);
+      } else {
+        previous.setAttribute("class", active);
+      }
+
+      if(offset > 0 && (offset + limit) < listLength  ) {
+        next.setAttribute("class", active);
+      } else {
+        next.setAttribute("class", inactive);
+      }
     }
   }
 })();

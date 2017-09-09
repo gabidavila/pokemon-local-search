@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const paginatedPokemon = paginate(allPokemonsList, offset);
   const nextButton = document.getElementById("next");
   const previousButton = document.getElementById("previous");
+  const searchBar = document.getElementById("search");
 
   render(paginatedPokemon, pokemonContainer);
 
@@ -22,20 +23,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
     pokemonContainer.innerHTML = "";
     offset += limit;
-    
+
     const paginatedPokemon = paginate(allPokemonsList, offset, offset + limit);
     render(paginatedPokemon, pokemonContainer);
+
+    helper.changeButtonColors(this, previous, allPokemonsList.length);
   });
 
   previous.addEventListener("click", function (event) {
+
     if(offset - limit < 0) {
       return;
     }
+
     const previousOffset = offset;
     pokemonContainer.innerHTML = "";
     offset -= limit;
 
     const paginatedPokemon = paginate(allPokemonsList, offset, previousOffset);
     render(paginatedPokemon, pokemonContainer);
+    helper.changeButtonColors(next, this, allPokemonsList.length);
   });
 });
