@@ -20,11 +20,16 @@ function fetchPokemons(pokemonsObj) {
   for (let name in pokemonsObj) {
     const id = POKEMON_NAMES[name];
     const pokemon = getPokemon(id);
+    pokemon.id = id;
     result.push(pokemon);
   }
   return result;
 }
 
-function search (term) {
+function search (term = "") {
   return fetchPokemons(scan(term));
+}
+
+function paginate (list, listOffset = 0, listLimit = 12) {
+  return list.slice(listOffset, listLimit);
 }

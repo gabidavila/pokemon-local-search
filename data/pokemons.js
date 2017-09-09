@@ -1,6 +1,6 @@
 const POKEMONS = {
    "1": {
-      "identifier": "bulbasaur",
+      "name": "bulbasaur",
       "species_id": 1,
       "height": 7,
       "weight": 69,
@@ -9,7 +9,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "2": {
-      "identifier": "ivysaur",
+      "name": "ivysaur",
       "species_id": 2,
       "height": 10,
       "weight": 130,
@@ -18,7 +18,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "3": {
-      "identifier": "venusaur",
+      "name": "venusaur",
       "species_id": 3,
       "height": 20,
       "weight": 1000,
@@ -27,7 +27,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "4": {
-      "identifier": "charmander",
+      "name": "charmander",
       "species_id": 4,
       "height": 6,
       "weight": 85,
@@ -36,7 +36,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "5": {
-      "identifier": "charmeleon",
+      "name": "charmeleon",
       "species_id": 5,
       "height": 11,
       "weight": 190,
@@ -45,7 +45,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "6": {
-      "identifier": "charizard",
+      "name": "charizard",
       "species_id": 6,
       "height": 17,
       "weight": 905,
@@ -54,7 +54,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "7": {
-      "identifier": "squirtle",
+      "name": "squirtle",
       "species_id": 7,
       "height": 5,
       "weight": 90,
@@ -63,7 +63,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "8": {
-      "identifier": "wartortle",
+      "name": "wartortle",
       "species_id": 8,
       "height": 10,
       "weight": 225,
@@ -72,7 +72,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "9": {
-      "identifier": "blastoise",
+      "name": "blastoise",
       "species_id": 9,
       "height": 16,
       "weight": 855,
@@ -81,7 +81,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "10": {
-      "identifier": "caterpie",
+      "name": "caterpie",
       "species_id": 10,
       "height": 3,
       "weight": 29,
@@ -90,7 +90,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "11": {
-      "identifier": "metapod",
+      "name": "metapod",
       "species_id": 11,
       "height": 7,
       "weight": 99,
@@ -99,7 +99,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "12": {
-      "identifier": "butterfree",
+      "name": "butterfree",
       "species_id": 12,
       "height": 11,
       "weight": 320,
@@ -108,7 +108,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "13": {
-      "identifier": "weedle",
+      "name": "weedle",
       "species_id": 13,
       "height": 3,
       "weight": 32,
@@ -117,7 +117,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "14": {
-      "identifier": "kakuna",
+      "name": "kakuna",
       "species_id": 14,
       "height": 6,
       "weight": 100,
@@ -126,7 +126,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "15": {
-      "identifier": "beedrill",
+      "name": "beedrill",
       "species_id": 15,
       "height": 10,
       "weight": 295,
@@ -135,7 +135,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "16": {
-      "identifier": "pidgey",
+      "name": "pidgey",
       "species_id": 16,
       "height": 3,
       "weight": 18,
@@ -144,7 +144,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "17": {
-      "identifier": "pidgeotto",
+      "name": "pidgeotto",
       "species_id": 17,
       "height": 11,
       "weight": 300,
@@ -153,7 +153,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "18": {
-      "identifier": "pidgeot",
+      "name": "pidgeot",
       "species_id": 18,
       "height": 15,
       "weight": 395,
@@ -162,7 +162,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "19": {
-      "identifier": "rattata",
+      "name": "rattata",
       "species_id": 19,
       "height": 3,
       "weight": 35,
@@ -171,7 +171,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "20": {
-      "identifier": "raticate",
+      "name": "raticate",
       "species_id": 20,
       "height": 7,
       "weight": 185,
@@ -180,7 +180,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "21": {
-      "identifier": "spearow",
+      "name": "spearow",
       "species_id": 21,
       "height": 3,
       "weight": 20,
@@ -189,7 +189,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "22": {
-      "identifier": "fearow",
+      "name": "fearow",
       "species_id": 22,
       "height": 12,
       "weight": 380,
@@ -198,7 +198,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "23": {
-      "identifier": "ekans",
+      "name": "ekans",
       "species_id": 23,
       "height": 20,
       "weight": 69,
@@ -207,7 +207,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "24": {
-      "identifier": "arbok",
+      "name": "arbok",
       "species_id": 24,
       "height": 35,
       "weight": 650,
@@ -216,7 +216,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "25": {
-      "identifier": "pikachu",
+      "name": "pikachu",
       "species_id": 25,
       "height": 4,
       "weight": 60,
@@ -225,7 +225,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "26": {
-      "identifier": "raichu",
+      "name": "raichu",
       "species_id": 26,
       "height": 8,
       "weight": 300,
@@ -234,7 +234,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "27": {
-      "identifier": "sandshrew",
+      "name": "sandshrew",
       "species_id": 27,
       "height": 6,
       "weight": 120,
@@ -243,7 +243,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "28": {
-      "identifier": "sandslash",
+      "name": "sandslash",
       "species_id": 28,
       "height": 10,
       "weight": 295,
@@ -252,7 +252,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "29": {
-      "identifier": "nidoran-f",
+      "name": "nidoran-f",
       "species_id": 29,
       "height": 4,
       "weight": 70,
@@ -261,7 +261,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "30": {
-      "identifier": "nidorina",
+      "name": "nidorina",
       "species_id": 30,
       "height": 8,
       "weight": 200,
@@ -270,7 +270,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "31": {
-      "identifier": "nidoqueen",
+      "name": "nidoqueen",
       "species_id": 31,
       "height": 13,
       "weight": 600,
@@ -279,7 +279,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "32": {
-      "identifier": "nidoran-m",
+      "name": "nidoran-m",
       "species_id": 32,
       "height": 5,
       "weight": 90,
@@ -288,7 +288,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "33": {
-      "identifier": "nidorino",
+      "name": "nidorino",
       "species_id": 33,
       "height": 9,
       "weight": 195,
@@ -297,7 +297,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "34": {
-      "identifier": "nidoking",
+      "name": "nidoking",
       "species_id": 34,
       "height": 14,
       "weight": 620,
@@ -306,7 +306,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "35": {
-      "identifier": "clefairy",
+      "name": "clefairy",
       "species_id": 35,
       "height": 6,
       "weight": 75,
@@ -315,7 +315,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "36": {
-      "identifier": "clefable",
+      "name": "clefable",
       "species_id": 36,
       "height": 13,
       "weight": 400,
@@ -324,7 +324,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "37": {
-      "identifier": "vulpix",
+      "name": "vulpix",
       "species_id": 37,
       "height": 6,
       "weight": 99,
@@ -333,7 +333,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "38": {
-      "identifier": "ninetales",
+      "name": "ninetales",
       "species_id": 38,
       "height": 11,
       "weight": 199,
@@ -342,7 +342,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "39": {
-      "identifier": "jigglypuff",
+      "name": "jigglypuff",
       "species_id": 39,
       "height": 5,
       "weight": 55,
@@ -351,7 +351,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "40": {
-      "identifier": "wigglytuff",
+      "name": "wigglytuff",
       "species_id": 40,
       "height": 10,
       "weight": 120,
@@ -360,7 +360,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "41": {
-      "identifier": "zubat",
+      "name": "zubat",
       "species_id": 41,
       "height": 8,
       "weight": 75,
@@ -369,7 +369,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "42": {
-      "identifier": "golbat",
+      "name": "golbat",
       "species_id": 42,
       "height": 16,
       "weight": 550,
@@ -378,7 +378,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "43": {
-      "identifier": "oddish",
+      "name": "oddish",
       "species_id": 43,
       "height": 5,
       "weight": 54,
@@ -387,7 +387,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "44": {
-      "identifier": "gloom",
+      "name": "gloom",
       "species_id": 44,
       "height": 8,
       "weight": 86,
@@ -396,7 +396,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "45": {
-      "identifier": "vileplume",
+      "name": "vileplume",
       "species_id": 45,
       "height": 12,
       "weight": 186,
@@ -405,7 +405,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "46": {
-      "identifier": "paras",
+      "name": "paras",
       "species_id": 46,
       "height": 3,
       "weight": 54,
@@ -414,7 +414,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "47": {
-      "identifier": "parasect",
+      "name": "parasect",
       "species_id": 47,
       "height": 10,
       "weight": 295,
@@ -423,7 +423,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "48": {
-      "identifier": "venonat",
+      "name": "venonat",
       "species_id": 48,
       "height": 10,
       "weight": 300,
@@ -432,7 +432,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "49": {
-      "identifier": "venomoth",
+      "name": "venomoth",
       "species_id": 49,
       "height": 15,
       "weight": 125,
@@ -441,7 +441,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "50": {
-      "identifier": "diglett",
+      "name": "diglett",
       "species_id": 50,
       "height": 2,
       "weight": 8,
@@ -450,7 +450,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "51": {
-      "identifier": "dugtrio",
+      "name": "dugtrio",
       "species_id": 51,
       "height": 7,
       "weight": 333,
@@ -459,7 +459,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "52": {
-      "identifier": "meowth",
+      "name": "meowth",
       "species_id": 52,
       "height": 4,
       "weight": 42,
@@ -468,7 +468,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "53": {
-      "identifier": "persian",
+      "name": "persian",
       "species_id": 53,
       "height": 10,
       "weight": 320,
@@ -477,7 +477,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "54": {
-      "identifier": "psyduck",
+      "name": "psyduck",
       "species_id": 54,
       "height": 8,
       "weight": 196,
@@ -486,7 +486,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "55": {
-      "identifier": "golduck",
+      "name": "golduck",
       "species_id": 55,
       "height": 17,
       "weight": 766,
@@ -495,7 +495,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "56": {
-      "identifier": "mankey",
+      "name": "mankey",
       "species_id": 56,
       "height": 5,
       "weight": 280,
@@ -504,7 +504,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "57": {
-      "identifier": "primeape",
+      "name": "primeape",
       "species_id": 57,
       "height": 10,
       "weight": 320,
@@ -513,7 +513,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "58": {
-      "identifier": "growlithe",
+      "name": "growlithe",
       "species_id": 58,
       "height": 7,
       "weight": 190,
@@ -522,7 +522,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "59": {
-      "identifier": "arcanine",
+      "name": "arcanine",
       "species_id": 59,
       "height": 19,
       "weight": 1550,
@@ -531,7 +531,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "60": {
-      "identifier": "poliwag",
+      "name": "poliwag",
       "species_id": 60,
       "height": 6,
       "weight": 124,
@@ -540,7 +540,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "61": {
-      "identifier": "poliwhirl",
+      "name": "poliwhirl",
       "species_id": 61,
       "height": 10,
       "weight": 200,
@@ -549,7 +549,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "62": {
-      "identifier": "poliwrath",
+      "name": "poliwrath",
       "species_id": 62,
       "height": 13,
       "weight": 540,
@@ -558,7 +558,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "63": {
-      "identifier": "abra",
+      "name": "abra",
       "species_id": 63,
       "height": 9,
       "weight": 195,
@@ -567,7 +567,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "64": {
-      "identifier": "kadabra",
+      "name": "kadabra",
       "species_id": 64,
       "height": 13,
       "weight": 565,
@@ -576,7 +576,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "65": {
-      "identifier": "alakazam",
+      "name": "alakazam",
       "species_id": 65,
       "height": 15,
       "weight": 480,
@@ -585,7 +585,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "66": {
-      "identifier": "machop",
+      "name": "machop",
       "species_id": 66,
       "height": 8,
       "weight": 195,
@@ -594,7 +594,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "67": {
-      "identifier": "machoke",
+      "name": "machoke",
       "species_id": 67,
       "height": 15,
       "weight": 705,
@@ -603,7 +603,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "68": {
-      "identifier": "machamp",
+      "name": "machamp",
       "species_id": 68,
       "height": 16,
       "weight": 1300,
@@ -612,7 +612,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "69": {
-      "identifier": "bellsprout",
+      "name": "bellsprout",
       "species_id": 69,
       "height": 7,
       "weight": 40,
@@ -621,7 +621,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "70": {
-      "identifier": "weepinbell",
+      "name": "weepinbell",
       "species_id": 70,
       "height": 10,
       "weight": 64,
@@ -630,7 +630,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "71": {
-      "identifier": "victreebel",
+      "name": "victreebel",
       "species_id": 71,
       "height": 17,
       "weight": 155,
@@ -639,7 +639,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "72": {
-      "identifier": "tentacool",
+      "name": "tentacool",
       "species_id": 72,
       "height": 9,
       "weight": 455,
@@ -648,7 +648,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "73": {
-      "identifier": "tentacruel",
+      "name": "tentacruel",
       "species_id": 73,
       "height": 16,
       "weight": 550,
@@ -657,7 +657,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "74": {
-      "identifier": "geodude",
+      "name": "geodude",
       "species_id": 74,
       "height": 4,
       "weight": 200,
@@ -666,7 +666,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "75": {
-      "identifier": "graveler",
+      "name": "graveler",
       "species_id": 75,
       "height": 10,
       "weight": 1050,
@@ -675,7 +675,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "76": {
-      "identifier": "golem",
+      "name": "golem",
       "species_id": 76,
       "height": 14,
       "weight": 3000,
@@ -684,7 +684,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "77": {
-      "identifier": "ponyta",
+      "name": "ponyta",
       "species_id": 77,
       "height": 10,
       "weight": 300,
@@ -693,7 +693,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "78": {
-      "identifier": "rapidash",
+      "name": "rapidash",
       "species_id": 78,
       "height": 17,
       "weight": 950,
@@ -702,7 +702,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "79": {
-      "identifier": "slowpoke",
+      "name": "slowpoke",
       "species_id": 79,
       "height": 12,
       "weight": 360,
@@ -711,7 +711,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "80": {
-      "identifier": "slowbro",
+      "name": "slowbro",
       "species_id": 80,
       "height": 16,
       "weight": 785,
@@ -720,7 +720,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "81": {
-      "identifier": "magnemite",
+      "name": "magnemite",
       "species_id": 81,
       "height": 3,
       "weight": 60,
@@ -729,7 +729,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "82": {
-      "identifier": "magneton",
+      "name": "magneton",
       "species_id": 82,
       "height": 10,
       "weight": 600,
@@ -738,7 +738,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "83": {
-      "identifier": "farfetchd",
+      "name": "farfetchd",
       "species_id": 83,
       "height": 8,
       "weight": 150,
@@ -747,7 +747,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "84": {
-      "identifier": "doduo",
+      "name": "doduo",
       "species_id": 84,
       "height": 14,
       "weight": 392,
@@ -756,7 +756,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "85": {
-      "identifier": "dodrio",
+      "name": "dodrio",
       "species_id": 85,
       "height": 18,
       "weight": 852,
@@ -765,7 +765,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "86": {
-      "identifier": "seel",
+      "name": "seel",
       "species_id": 86,
       "height": 11,
       "weight": 900,
@@ -774,7 +774,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "87": {
-      "identifier": "dewgong",
+      "name": "dewgong",
       "species_id": 87,
       "height": 17,
       "weight": 1200,
@@ -783,7 +783,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "88": {
-      "identifier": "grimer",
+      "name": "grimer",
       "species_id": 88,
       "height": 9,
       "weight": 300,
@@ -792,7 +792,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "89": {
-      "identifier": "muk",
+      "name": "muk",
       "species_id": 89,
       "height": 12,
       "weight": 300,
@@ -801,7 +801,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "90": {
-      "identifier": "shellder",
+      "name": "shellder",
       "species_id": 90,
       "height": 3,
       "weight": 40,
@@ -810,7 +810,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "91": {
-      "identifier": "cloyster",
+      "name": "cloyster",
       "species_id": 91,
       "height": 15,
       "weight": 1325,
@@ -819,7 +819,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "92": {
-      "identifier": "gastly",
+      "name": "gastly",
       "species_id": 92,
       "height": 13,
       "weight": 1,
@@ -828,7 +828,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "93": {
-      "identifier": "haunter",
+      "name": "haunter",
       "species_id": 93,
       "height": 16,
       "weight": 1,
@@ -837,7 +837,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "94": {
-      "identifier": "gengar",
+      "name": "gengar",
       "species_id": 94,
       "height": 15,
       "weight": 405,
@@ -846,7 +846,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "95": {
-      "identifier": "onix",
+      "name": "onix",
       "species_id": 95,
       "height": 88,
       "weight": 2100,
@@ -855,7 +855,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "96": {
-      "identifier": "drowzee",
+      "name": "drowzee",
       "species_id": 96,
       "height": 10,
       "weight": 324,
@@ -864,7 +864,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "97": {
-      "identifier": "hypno",
+      "name": "hypno",
       "species_id": 97,
       "height": 16,
       "weight": 756,
@@ -873,7 +873,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "98": {
-      "identifier": "krabby",
+      "name": "krabby",
       "species_id": 98,
       "height": 4,
       "weight": 65,
@@ -882,7 +882,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "99": {
-      "identifier": "kingler",
+      "name": "kingler",
       "species_id": 99,
       "height": 13,
       "weight": 600,
@@ -891,7 +891,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "100": {
-      "identifier": "voltorb",
+      "name": "voltorb",
       "species_id": 100,
       "height": 5,
       "weight": 104,
@@ -900,7 +900,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "101": {
-      "identifier": "electrode",
+      "name": "electrode",
       "species_id": 101,
       "height": 12,
       "weight": 666,
@@ -909,7 +909,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "102": {
-      "identifier": "exeggcute",
+      "name": "exeggcute",
       "species_id": 102,
       "height": 4,
       "weight": 25,
@@ -918,7 +918,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "103": {
-      "identifier": "exeggutor",
+      "name": "exeggutor",
       "species_id": 103,
       "height": 20,
       "weight": 1200,
@@ -927,7 +927,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "104": {
-      "identifier": "cubone",
+      "name": "cubone",
       "species_id": 104,
       "height": 4,
       "weight": 65,
@@ -936,7 +936,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "105": {
-      "identifier": "marowak",
+      "name": "marowak",
       "species_id": 105,
       "height": 10,
       "weight": 450,
@@ -945,7 +945,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "106": {
-      "identifier": "hitmonlee",
+      "name": "hitmonlee",
       "species_id": 106,
       "height": 15,
       "weight": 498,
@@ -954,7 +954,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "107": {
-      "identifier": "hitmonchan",
+      "name": "hitmonchan",
       "species_id": 107,
       "height": 14,
       "weight": 502,
@@ -963,7 +963,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "108": {
-      "identifier": "lickitung",
+      "name": "lickitung",
       "species_id": 108,
       "height": 12,
       "weight": 655,
@@ -972,7 +972,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "109": {
-      "identifier": "koffing",
+      "name": "koffing",
       "species_id": 109,
       "height": 6,
       "weight": 10,
@@ -981,7 +981,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "110": {
-      "identifier": "weezing",
+      "name": "weezing",
       "species_id": 110,
       "height": 12,
       "weight": 95,
@@ -990,7 +990,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "111": {
-      "identifier": "rhyhorn",
+      "name": "rhyhorn",
       "species_id": 111,
       "height": 10,
       "weight": 1150,
@@ -999,7 +999,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "112": {
-      "identifier": "rhydon",
+      "name": "rhydon",
       "species_id": 112,
       "height": 19,
       "weight": 1200,
@@ -1008,7 +1008,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "113": {
-      "identifier": "chansey",
+      "name": "chansey",
       "species_id": 113,
       "height": 11,
       "weight": 346,
@@ -1017,7 +1017,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "114": {
-      "identifier": "tangela",
+      "name": "tangela",
       "species_id": 114,
       "height": 10,
       "weight": 350,
@@ -1026,7 +1026,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "115": {
-      "identifier": "kangaskhan",
+      "name": "kangaskhan",
       "species_id": 115,
       "height": 22,
       "weight": 800,
@@ -1035,7 +1035,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "116": {
-      "identifier": "horsea",
+      "name": "horsea",
       "species_id": 116,
       "height": 4,
       "weight": 80,
@@ -1044,7 +1044,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "117": {
-      "identifier": "seadra",
+      "name": "seadra",
       "species_id": 117,
       "height": 12,
       "weight": 250,
@@ -1053,7 +1053,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "118": {
-      "identifier": "goldeen",
+      "name": "goldeen",
       "species_id": 118,
       "height": 6,
       "weight": 150,
@@ -1062,7 +1062,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "119": {
-      "identifier": "seaking",
+      "name": "seaking",
       "species_id": 119,
       "height": 13,
       "weight": 390,
@@ -1071,7 +1071,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "120": {
-      "identifier": "staryu",
+      "name": "staryu",
       "species_id": 120,
       "height": 8,
       "weight": 345,
@@ -1080,7 +1080,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "121": {
-      "identifier": "starmie",
+      "name": "starmie",
       "species_id": 121,
       "height": 11,
       "weight": 800,
@@ -1089,7 +1089,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "122": {
-      "identifier": "mr-mime",
+      "name": "mr-mime",
       "species_id": 122,
       "height": 13,
       "weight": 545,
@@ -1098,7 +1098,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "123": {
-      "identifier": "scyther",
+      "name": "scyther",
       "species_id": 123,
       "height": 15,
       "weight": 560,
@@ -1107,7 +1107,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "124": {
-      "identifier": "jynx",
+      "name": "jynx",
       "species_id": 124,
       "height": 14,
       "weight": 406,
@@ -1116,7 +1116,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "125": {
-      "identifier": "electabuzz",
+      "name": "electabuzz",
       "species_id": 125,
       "height": 11,
       "weight": 300,
@@ -1125,7 +1125,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "126": {
-      "identifier": "magmar",
+      "name": "magmar",
       "species_id": 126,
       "height": 13,
       "weight": 445,
@@ -1134,7 +1134,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "127": {
-      "identifier": "pinsir",
+      "name": "pinsir",
       "species_id": 127,
       "height": 15,
       "weight": 550,
@@ -1143,7 +1143,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "128": {
-      "identifier": "tauros",
+      "name": "tauros",
       "species_id": 128,
       "height": 14,
       "weight": 884,
@@ -1152,7 +1152,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "129": {
-      "identifier": "magikarp",
+      "name": "magikarp",
       "species_id": 129,
       "height": 9,
       "weight": 100,
@@ -1161,7 +1161,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "130": {
-      "identifier": "gyarados",
+      "name": "gyarados",
       "species_id": 130,
       "height": 65,
       "weight": 2350,
@@ -1170,7 +1170,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "131": {
-      "identifier": "lapras",
+      "name": "lapras",
       "species_id": 131,
       "height": 25,
       "weight": 2200,
@@ -1179,7 +1179,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "132": {
-      "identifier": "ditto",
+      "name": "ditto",
       "species_id": 132,
       "height": 3,
       "weight": 40,
@@ -1188,7 +1188,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "133": {
-      "identifier": "eevee",
+      "name": "eevee",
       "species_id": 133,
       "height": 3,
       "weight": 65,
@@ -1197,7 +1197,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "134": {
-      "identifier": "vaporeon",
+      "name": "vaporeon",
       "species_id": 134,
       "height": 10,
       "weight": 290,
@@ -1206,7 +1206,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "135": {
-      "identifier": "jolteon",
+      "name": "jolteon",
       "species_id": 135,
       "height": 8,
       "weight": 245,
@@ -1215,7 +1215,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "136": {
-      "identifier": "flareon",
+      "name": "flareon",
       "species_id": 136,
       "height": 9,
       "weight": 250,
@@ -1224,7 +1224,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "137": {
-      "identifier": "porygon",
+      "name": "porygon",
       "species_id": 137,
       "height": 8,
       "weight": 365,
@@ -1233,7 +1233,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "138": {
-      "identifier": "omanyte",
+      "name": "omanyte",
       "species_id": 138,
       "height": 4,
       "weight": 75,
@@ -1242,7 +1242,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "139": {
-      "identifier": "omastar",
+      "name": "omastar",
       "species_id": 139,
       "height": 10,
       "weight": 350,
@@ -1251,7 +1251,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "140": {
-      "identifier": "kabuto",
+      "name": "kabuto",
       "species_id": 140,
       "height": 5,
       "weight": 115,
@@ -1260,7 +1260,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "141": {
-      "identifier": "kabutops",
+      "name": "kabutops",
       "species_id": 141,
       "height": 13,
       "weight": 405,
@@ -1269,7 +1269,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "142": {
-      "identifier": "aerodactyl",
+      "name": "aerodactyl",
       "species_id": 142,
       "height": 18,
       "weight": 590,
@@ -1278,7 +1278,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "143": {
-      "identifier": "snorlax",
+      "name": "snorlax",
       "species_id": 143,
       "height": 21,
       "weight": 4600,
@@ -1287,7 +1287,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "144": {
-      "identifier": "articuno",
+      "name": "articuno",
       "species_id": 144,
       "height": 17,
       "weight": 554,
@@ -1296,7 +1296,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "145": {
-      "identifier": "zapdos",
+      "name": "zapdos",
       "species_id": 145,
       "height": 16,
       "weight": 526,
@@ -1305,7 +1305,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "146": {
-      "identifier": "moltres",
+      "name": "moltres",
       "species_id": 146,
       "height": 20,
       "weight": 600,
@@ -1314,7 +1314,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "147": {
-      "identifier": "dratini",
+      "name": "dratini",
       "species_id": 147,
       "height": 18,
       "weight": 33,
@@ -1323,7 +1323,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "148": {
-      "identifier": "dragonair",
+      "name": "dragonair",
       "species_id": 148,
       "height": 40,
       "weight": 165,
@@ -1332,7 +1332,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "149": {
-      "identifier": "dragonite",
+      "name": "dragonite",
       "species_id": 149,
       "height": 22,
       "weight": 2100,
@@ -1341,7 +1341,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "150": {
-      "identifier": "mewtwo",
+      "name": "mewtwo",
       "species_id": 150,
       "height": 20,
       "weight": 1220,
@@ -1350,7 +1350,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "151": {
-      "identifier": "mew",
+      "name": "mew",
       "species_id": 151,
       "height": 4,
       "weight": 40,
@@ -1359,7 +1359,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "152": {
-      "identifier": "chikorita",
+      "name": "chikorita",
       "species_id": 152,
       "height": 9,
       "weight": 64,
@@ -1368,7 +1368,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "153": {
-      "identifier": "bayleef",
+      "name": "bayleef",
       "species_id": 153,
       "height": 12,
       "weight": 158,
@@ -1377,7 +1377,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "154": {
-      "identifier": "meganium",
+      "name": "meganium",
       "species_id": 154,
       "height": 18,
       "weight": 1005,
@@ -1386,7 +1386,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "155": {
-      "identifier": "cyndaquil",
+      "name": "cyndaquil",
       "species_id": 155,
       "height": 5,
       "weight": 79,
@@ -1395,7 +1395,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "156": {
-      "identifier": "quilava",
+      "name": "quilava",
       "species_id": 156,
       "height": 9,
       "weight": 190,
@@ -1404,7 +1404,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "157": {
-      "identifier": "typhlosion",
+      "name": "typhlosion",
       "species_id": 157,
       "height": 17,
       "weight": 795,
@@ -1413,7 +1413,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "158": {
-      "identifier": "totodile",
+      "name": "totodile",
       "species_id": 158,
       "height": 6,
       "weight": 95,
@@ -1422,7 +1422,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "159": {
-      "identifier": "croconaw",
+      "name": "croconaw",
       "species_id": 159,
       "height": 11,
       "weight": 250,
@@ -1431,7 +1431,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "160": {
-      "identifier": "feraligatr",
+      "name": "feraligatr",
       "species_id": 160,
       "height": 23,
       "weight": 888,
@@ -1440,7 +1440,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "161": {
-      "identifier": "sentret",
+      "name": "sentret",
       "species_id": 161,
       "height": 8,
       "weight": 60,
@@ -1449,7 +1449,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "162": {
-      "identifier": "furret",
+      "name": "furret",
       "species_id": 162,
       "height": 18,
       "weight": 325,
@@ -1458,7 +1458,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "163": {
-      "identifier": "hoothoot",
+      "name": "hoothoot",
       "species_id": 163,
       "height": 7,
       "weight": 212,
@@ -1467,7 +1467,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "164": {
-      "identifier": "noctowl",
+      "name": "noctowl",
       "species_id": 164,
       "height": 16,
       "weight": 408,
@@ -1476,7 +1476,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "165": {
-      "identifier": "ledyba",
+      "name": "ledyba",
       "species_id": 165,
       "height": 10,
       "weight": 108,
@@ -1485,7 +1485,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "166": {
-      "identifier": "ledian",
+      "name": "ledian",
       "species_id": 166,
       "height": 14,
       "weight": 356,
@@ -1494,7 +1494,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "167": {
-      "identifier": "spinarak",
+      "name": "spinarak",
       "species_id": 167,
       "height": 5,
       "weight": 85,
@@ -1503,7 +1503,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "168": {
-      "identifier": "ariados",
+      "name": "ariados",
       "species_id": 168,
       "height": 11,
       "weight": 335,
@@ -1512,7 +1512,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "169": {
-      "identifier": "crobat",
+      "name": "crobat",
       "species_id": 169,
       "height": 18,
       "weight": 750,
@@ -1521,7 +1521,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "170": {
-      "identifier": "chinchou",
+      "name": "chinchou",
       "species_id": 170,
       "height": 5,
       "weight": 120,
@@ -1530,7 +1530,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "171": {
-      "identifier": "lanturn",
+      "name": "lanturn",
       "species_id": 171,
       "height": 12,
       "weight": 225,
@@ -1539,7 +1539,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "172": {
-      "identifier": "pichu",
+      "name": "pichu",
       "species_id": 172,
       "height": 3,
       "weight": 20,
@@ -1548,7 +1548,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "173": {
-      "identifier": "cleffa",
+      "name": "cleffa",
       "species_id": 173,
       "height": 3,
       "weight": 30,
@@ -1557,7 +1557,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "174": {
-      "identifier": "igglybuff",
+      "name": "igglybuff",
       "species_id": 174,
       "height": 3,
       "weight": 10,
@@ -1566,7 +1566,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "175": {
-      "identifier": "togepi",
+      "name": "togepi",
       "species_id": 175,
       "height": 3,
       "weight": 15,
@@ -1575,7 +1575,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "176": {
-      "identifier": "togetic",
+      "name": "togetic",
       "species_id": 176,
       "height": 6,
       "weight": 32,
@@ -1584,7 +1584,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "177": {
-      "identifier": "natu",
+      "name": "natu",
       "species_id": 177,
       "height": 2,
       "weight": 20,
@@ -1593,7 +1593,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "178": {
-      "identifier": "xatu",
+      "name": "xatu",
       "species_id": 178,
       "height": 15,
       "weight": 150,
@@ -1602,7 +1602,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "179": {
-      "identifier": "mareep",
+      "name": "mareep",
       "species_id": 179,
       "height": 6,
       "weight": 78,
@@ -1611,7 +1611,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "180": {
-      "identifier": "flaaffy",
+      "name": "flaaffy",
       "species_id": 180,
       "height": 8,
       "weight": 133,
@@ -1620,7 +1620,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "181": {
-      "identifier": "ampharos",
+      "name": "ampharos",
       "species_id": 181,
       "height": 14,
       "weight": 615,
@@ -1629,7 +1629,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "182": {
-      "identifier": "bellossom",
+      "name": "bellossom",
       "species_id": 182,
       "height": 4,
       "weight": 58,
@@ -1638,7 +1638,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "183": {
-      "identifier": "marill",
+      "name": "marill",
       "species_id": 183,
       "height": 4,
       "weight": 85,
@@ -1647,7 +1647,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "184": {
-      "identifier": "azumarill",
+      "name": "azumarill",
       "species_id": 184,
       "height": 8,
       "weight": 285,
@@ -1656,7 +1656,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "185": {
-      "identifier": "sudowoodo",
+      "name": "sudowoodo",
       "species_id": 185,
       "height": 12,
       "weight": 380,
@@ -1665,7 +1665,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "186": {
-      "identifier": "politoed",
+      "name": "politoed",
       "species_id": 186,
       "height": 11,
       "weight": 339,
@@ -1674,7 +1674,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "187": {
-      "identifier": "hoppip",
+      "name": "hoppip",
       "species_id": 187,
       "height": 4,
       "weight": 5,
@@ -1683,7 +1683,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "188": {
-      "identifier": "skiploom",
+      "name": "skiploom",
       "species_id": 188,
       "height": 6,
       "weight": 10,
@@ -1692,7 +1692,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "189": {
-      "identifier": "jumpluff",
+      "name": "jumpluff",
       "species_id": 189,
       "height": 8,
       "weight": 30,
@@ -1701,7 +1701,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "190": {
-      "identifier": "aipom",
+      "name": "aipom",
       "species_id": 190,
       "height": 8,
       "weight": 115,
@@ -1710,7 +1710,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "191": {
-      "identifier": "sunkern",
+      "name": "sunkern",
       "species_id": 191,
       "height": 3,
       "weight": 18,
@@ -1719,7 +1719,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "192": {
-      "identifier": "sunflora",
+      "name": "sunflora",
       "species_id": 192,
       "height": 8,
       "weight": 85,
@@ -1728,7 +1728,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "193": {
-      "identifier": "yanma",
+      "name": "yanma",
       "species_id": 193,
       "height": 12,
       "weight": 380,
@@ -1737,7 +1737,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "194": {
-      "identifier": "wooper",
+      "name": "wooper",
       "species_id": 194,
       "height": 4,
       "weight": 85,
@@ -1746,7 +1746,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "195": {
-      "identifier": "quagsire",
+      "name": "quagsire",
       "species_id": 195,
       "height": 14,
       "weight": 750,
@@ -1755,7 +1755,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "196": {
-      "identifier": "espeon",
+      "name": "espeon",
       "species_id": 196,
       "height": 9,
       "weight": 265,
@@ -1764,7 +1764,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "197": {
-      "identifier": "umbreon",
+      "name": "umbreon",
       "species_id": 197,
       "height": 10,
       "weight": 270,
@@ -1773,7 +1773,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "198": {
-      "identifier": "murkrow",
+      "name": "murkrow",
       "species_id": 198,
       "height": 5,
       "weight": 21,
@@ -1782,7 +1782,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "199": {
-      "identifier": "slowking",
+      "name": "slowking",
       "species_id": 199,
       "height": 20,
       "weight": 795,
@@ -1791,7 +1791,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "200": {
-      "identifier": "misdreavus",
+      "name": "misdreavus",
       "species_id": 200,
       "height": 7,
       "weight": 10,
@@ -1800,7 +1800,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "201": {
-      "identifier": "unown",
+      "name": "unown",
       "species_id": 201,
       "height": 5,
       "weight": 50,
@@ -1809,7 +1809,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "202": {
-      "identifier": "wobbuffet",
+      "name": "wobbuffet",
       "species_id": 202,
       "height": 13,
       "weight": 285,
@@ -1818,7 +1818,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "203": {
-      "identifier": "girafarig",
+      "name": "girafarig",
       "species_id": 203,
       "height": 15,
       "weight": 415,
@@ -1827,7 +1827,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "204": {
-      "identifier": "pineco",
+      "name": "pineco",
       "species_id": 204,
       "height": 6,
       "weight": 72,
@@ -1836,7 +1836,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "205": {
-      "identifier": "forretress",
+      "name": "forretress",
       "species_id": 205,
       "height": 12,
       "weight": 1258,
@@ -1845,7 +1845,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "206": {
-      "identifier": "dunsparce",
+      "name": "dunsparce",
       "species_id": 206,
       "height": 15,
       "weight": 140,
@@ -1854,7 +1854,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "207": {
-      "identifier": "gligar",
+      "name": "gligar",
       "species_id": 207,
       "height": 11,
       "weight": 648,
@@ -1863,7 +1863,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "208": {
-      "identifier": "steelix",
+      "name": "steelix",
       "species_id": 208,
       "height": 92,
       "weight": 4000,
@@ -1872,7 +1872,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "209": {
-      "identifier": "snubbull",
+      "name": "snubbull",
       "species_id": 209,
       "height": 6,
       "weight": 78,
@@ -1881,7 +1881,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "210": {
-      "identifier": "granbull",
+      "name": "granbull",
       "species_id": 210,
       "height": 14,
       "weight": 487,
@@ -1890,7 +1890,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "211": {
-      "identifier": "qwilfish",
+      "name": "qwilfish",
       "species_id": 211,
       "height": 5,
       "weight": 39,
@@ -1899,7 +1899,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "212": {
-      "identifier": "scizor",
+      "name": "scizor",
       "species_id": 212,
       "height": 18,
       "weight": 1180,
@@ -1908,7 +1908,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "213": {
-      "identifier": "shuckle",
+      "name": "shuckle",
       "species_id": 213,
       "height": 6,
       "weight": 205,
@@ -1917,7 +1917,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "214": {
-      "identifier": "heracross",
+      "name": "heracross",
       "species_id": 214,
       "height": 15,
       "weight": 540,
@@ -1926,7 +1926,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "215": {
-      "identifier": "sneasel",
+      "name": "sneasel",
       "species_id": 215,
       "height": 9,
       "weight": 280,
@@ -1935,7 +1935,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "216": {
-      "identifier": "teddiursa",
+      "name": "teddiursa",
       "species_id": 216,
       "height": 6,
       "weight": 88,
@@ -1944,7 +1944,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "217": {
-      "identifier": "ursaring",
+      "name": "ursaring",
       "species_id": 217,
       "height": 18,
       "weight": 1258,
@@ -1953,7 +1953,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "218": {
-      "identifier": "slugma",
+      "name": "slugma",
       "species_id": 218,
       "height": 7,
       "weight": 350,
@@ -1962,7 +1962,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "219": {
-      "identifier": "magcargo",
+      "name": "magcargo",
       "species_id": 219,
       "height": 8,
       "weight": 550,
@@ -1971,7 +1971,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "220": {
-      "identifier": "swinub",
+      "name": "swinub",
       "species_id": 220,
       "height": 4,
       "weight": 65,
@@ -1980,7 +1980,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "221": {
-      "identifier": "piloswine",
+      "name": "piloswine",
       "species_id": 221,
       "height": 11,
       "weight": 558,
@@ -1989,7 +1989,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "222": {
-      "identifier": "corsola",
+      "name": "corsola",
       "species_id": 222,
       "height": 6,
       "weight": 50,
@@ -1998,7 +1998,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "223": {
-      "identifier": "remoraid",
+      "name": "remoraid",
       "species_id": 223,
       "height": 6,
       "weight": 120,
@@ -2007,7 +2007,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "224": {
-      "identifier": "octillery",
+      "name": "octillery",
       "species_id": 224,
       "height": 9,
       "weight": 285,
@@ -2016,7 +2016,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "225": {
-      "identifier": "delibird",
+      "name": "delibird",
       "species_id": 225,
       "height": 9,
       "weight": 160,
@@ -2025,7 +2025,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "226": {
-      "identifier": "mantine",
+      "name": "mantine",
       "species_id": 226,
       "height": 21,
       "weight": 2200,
@@ -2034,7 +2034,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "227": {
-      "identifier": "skarmory",
+      "name": "skarmory",
       "species_id": 227,
       "height": 17,
       "weight": 505,
@@ -2043,7 +2043,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "228": {
-      "identifier": "houndour",
+      "name": "houndour",
       "species_id": 228,
       "height": 6,
       "weight": 108,
@@ -2052,7 +2052,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "229": {
-      "identifier": "houndoom",
+      "name": "houndoom",
       "species_id": 229,
       "height": 14,
       "weight": 350,
@@ -2061,7 +2061,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "230": {
-      "identifier": "kingdra",
+      "name": "kingdra",
       "species_id": 230,
       "height": 18,
       "weight": 1520,
@@ -2070,7 +2070,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "231": {
-      "identifier": "phanpy",
+      "name": "phanpy",
       "species_id": 231,
       "height": 5,
       "weight": 335,
@@ -2079,7 +2079,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "232": {
-      "identifier": "donphan",
+      "name": "donphan",
       "species_id": 232,
       "height": 11,
       "weight": 1200,
@@ -2088,7 +2088,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "233": {
-      "identifier": "porygon2",
+      "name": "porygon2",
       "species_id": 233,
       "height": 6,
       "weight": 325,
@@ -2097,7 +2097,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "234": {
-      "identifier": "stantler",
+      "name": "stantler",
       "species_id": 234,
       "height": 14,
       "weight": 712,
@@ -2106,7 +2106,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "235": {
-      "identifier": "smeargle",
+      "name": "smeargle",
       "species_id": 235,
       "height": 12,
       "weight": 580,
@@ -2115,7 +2115,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "236": {
-      "identifier": "tyrogue",
+      "name": "tyrogue",
       "species_id": 236,
       "height": 7,
       "weight": 210,
@@ -2124,7 +2124,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "237": {
-      "identifier": "hitmontop",
+      "name": "hitmontop",
       "species_id": 237,
       "height": 14,
       "weight": 480,
@@ -2133,7 +2133,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "238": {
-      "identifier": "smoochum",
+      "name": "smoochum",
       "species_id": 238,
       "height": 4,
       "weight": 60,
@@ -2142,7 +2142,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "239": {
-      "identifier": "elekid",
+      "name": "elekid",
       "species_id": 239,
       "height": 6,
       "weight": 235,
@@ -2151,7 +2151,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "240": {
-      "identifier": "magby",
+      "name": "magby",
       "species_id": 240,
       "height": 7,
       "weight": 214,
@@ -2160,7 +2160,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "241": {
-      "identifier": "miltank",
+      "name": "miltank",
       "species_id": 241,
       "height": 12,
       "weight": 755,
@@ -2169,7 +2169,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "242": {
-      "identifier": "blissey",
+      "name": "blissey",
       "species_id": 242,
       "height": 15,
       "weight": 468,
@@ -2178,7 +2178,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "243": {
-      "identifier": "raikou",
+      "name": "raikou",
       "species_id": 243,
       "height": 19,
       "weight": 1780,
@@ -2187,7 +2187,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "244": {
-      "identifier": "entei",
+      "name": "entei",
       "species_id": 244,
       "height": 21,
       "weight": 1980,
@@ -2196,7 +2196,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "245": {
-      "identifier": "suicune",
+      "name": "suicune",
       "species_id": 245,
       "height": 20,
       "weight": 1870,
@@ -2205,7 +2205,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "246": {
-      "identifier": "larvitar",
+      "name": "larvitar",
       "species_id": 246,
       "height": 6,
       "weight": 720,
@@ -2214,7 +2214,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "247": {
-      "identifier": "pupitar",
+      "name": "pupitar",
       "species_id": 247,
       "height": 12,
       "weight": 1520,
@@ -2223,7 +2223,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "248": {
-      "identifier": "tyranitar",
+      "name": "tyranitar",
       "species_id": 248,
       "height": 20,
       "weight": 2020,
@@ -2232,7 +2232,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "249": {
-      "identifier": "lugia",
+      "name": "lugia",
       "species_id": 249,
       "height": 52,
       "weight": 2160,
@@ -2241,7 +2241,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "250": {
-      "identifier": "ho-oh",
+      "name": "ho-oh",
       "species_id": 250,
       "height": 38,
       "weight": 1990,
@@ -2250,7 +2250,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "251": {
-      "identifier": "celebi",
+      "name": "celebi",
       "species_id": 251,
       "height": 6,
       "weight": 50,
@@ -2259,7 +2259,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "252": {
-      "identifier": "treecko",
+      "name": "treecko",
       "species_id": 252,
       "height": 5,
       "weight": 50,
@@ -2268,7 +2268,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "253": {
-      "identifier": "grovyle",
+      "name": "grovyle",
       "species_id": 253,
       "height": 9,
       "weight": 216,
@@ -2277,7 +2277,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "254": {
-      "identifier": "sceptile",
+      "name": "sceptile",
       "species_id": 254,
       "height": 17,
       "weight": 522,
@@ -2286,7 +2286,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "255": {
-      "identifier": "torchic",
+      "name": "torchic",
       "species_id": 255,
       "height": 4,
       "weight": 25,
@@ -2295,7 +2295,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "256": {
-      "identifier": "combusken",
+      "name": "combusken",
       "species_id": 256,
       "height": 9,
       "weight": 195,
@@ -2304,7 +2304,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "257": {
-      "identifier": "blaziken",
+      "name": "blaziken",
       "species_id": 257,
       "height": 19,
       "weight": 520,
@@ -2313,7 +2313,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "258": {
-      "identifier": "mudkip",
+      "name": "mudkip",
       "species_id": 258,
       "height": 4,
       "weight": 76,
@@ -2322,7 +2322,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "259": {
-      "identifier": "marshtomp",
+      "name": "marshtomp",
       "species_id": 259,
       "height": 7,
       "weight": 280,
@@ -2331,7 +2331,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "260": {
-      "identifier": "swampert",
+      "name": "swampert",
       "species_id": 260,
       "height": 15,
       "weight": 819,
@@ -2340,7 +2340,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "261": {
-      "identifier": "poochyena",
+      "name": "poochyena",
       "species_id": 261,
       "height": 5,
       "weight": 136,
@@ -2349,7 +2349,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "262": {
-      "identifier": "mightyena",
+      "name": "mightyena",
       "species_id": 262,
       "height": 10,
       "weight": 370,
@@ -2358,7 +2358,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "263": {
-      "identifier": "zigzagoon",
+      "name": "zigzagoon",
       "species_id": 263,
       "height": 4,
       "weight": 175,
@@ -2367,7 +2367,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "264": {
-      "identifier": "linoone",
+      "name": "linoone",
       "species_id": 264,
       "height": 5,
       "weight": 325,
@@ -2376,7 +2376,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "265": {
-      "identifier": "wurmple",
+      "name": "wurmple",
       "species_id": 265,
       "height": 3,
       "weight": 36,
@@ -2385,7 +2385,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "266": {
-      "identifier": "silcoon",
+      "name": "silcoon",
       "species_id": 266,
       "height": 6,
       "weight": 100,
@@ -2394,7 +2394,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "267": {
-      "identifier": "beautifly",
+      "name": "beautifly",
       "species_id": 267,
       "height": 10,
       "weight": 284,
@@ -2403,7 +2403,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "268": {
-      "identifier": "cascoon",
+      "name": "cascoon",
       "species_id": 268,
       "height": 7,
       "weight": 115,
@@ -2412,7 +2412,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "269": {
-      "identifier": "dustox",
+      "name": "dustox",
       "species_id": 269,
       "height": 12,
       "weight": 316,
@@ -2421,7 +2421,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "270": {
-      "identifier": "lotad",
+      "name": "lotad",
       "species_id": 270,
       "height": 5,
       "weight": 26,
@@ -2430,7 +2430,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "271": {
-      "identifier": "lombre",
+      "name": "lombre",
       "species_id": 271,
       "height": 12,
       "weight": 325,
@@ -2439,7 +2439,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "272": {
-      "identifier": "ludicolo",
+      "name": "ludicolo",
       "species_id": 272,
       "height": 15,
       "weight": 550,
@@ -2448,7 +2448,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "273": {
-      "identifier": "seedot",
+      "name": "seedot",
       "species_id": 273,
       "height": 5,
       "weight": 40,
@@ -2457,7 +2457,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "274": {
-      "identifier": "nuzleaf",
+      "name": "nuzleaf",
       "species_id": 274,
       "height": 10,
       "weight": 280,
@@ -2466,7 +2466,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "275": {
-      "identifier": "shiftry",
+      "name": "shiftry",
       "species_id": 275,
       "height": 13,
       "weight": 596,
@@ -2475,7 +2475,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "276": {
-      "identifier": "taillow",
+      "name": "taillow",
       "species_id": 276,
       "height": 3,
       "weight": 23,
@@ -2484,7 +2484,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "277": {
-      "identifier": "swellow",
+      "name": "swellow",
       "species_id": 277,
       "height": 7,
       "weight": 198,
@@ -2493,7 +2493,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "278": {
-      "identifier": "wingull",
+      "name": "wingull",
       "species_id": 278,
       "height": 6,
       "weight": 95,
@@ -2502,7 +2502,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "279": {
-      "identifier": "pelipper",
+      "name": "pelipper",
       "species_id": 279,
       "height": 12,
       "weight": 280,
@@ -2511,7 +2511,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "280": {
-      "identifier": "ralts",
+      "name": "ralts",
       "species_id": 280,
       "height": 4,
       "weight": 66,
@@ -2520,7 +2520,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "281": {
-      "identifier": "kirlia",
+      "name": "kirlia",
       "species_id": 281,
       "height": 8,
       "weight": 202,
@@ -2529,7 +2529,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "282": {
-      "identifier": "gardevoir",
+      "name": "gardevoir",
       "species_id": 282,
       "height": 16,
       "weight": 484,
@@ -2538,7 +2538,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "283": {
-      "identifier": "surskit",
+      "name": "surskit",
       "species_id": 283,
       "height": 5,
       "weight": 17,
@@ -2547,7 +2547,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "284": {
-      "identifier": "masquerain",
+      "name": "masquerain",
       "species_id": 284,
       "height": 8,
       "weight": 36,
@@ -2556,7 +2556,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "285": {
-      "identifier": "shroomish",
+      "name": "shroomish",
       "species_id": 285,
       "height": 4,
       "weight": 45,
@@ -2565,7 +2565,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "286": {
-      "identifier": "breloom",
+      "name": "breloom",
       "species_id": 286,
       "height": 12,
       "weight": 392,
@@ -2574,7 +2574,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "287": {
-      "identifier": "slakoth",
+      "name": "slakoth",
       "species_id": 287,
       "height": 8,
       "weight": 240,
@@ -2583,7 +2583,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "288": {
-      "identifier": "vigoroth",
+      "name": "vigoroth",
       "species_id": 288,
       "height": 14,
       "weight": 465,
@@ -2592,7 +2592,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "289": {
-      "identifier": "slaking",
+      "name": "slaking",
       "species_id": 289,
       "height": 20,
       "weight": 1305,
@@ -2601,7 +2601,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "290": {
-      "identifier": "nincada",
+      "name": "nincada",
       "species_id": 290,
       "height": 5,
       "weight": 55,
@@ -2610,7 +2610,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "291": {
-      "identifier": "ninjask",
+      "name": "ninjask",
       "species_id": 291,
       "height": 8,
       "weight": 120,
@@ -2619,7 +2619,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "292": {
-      "identifier": "shedinja",
+      "name": "shedinja",
       "species_id": 292,
       "height": 8,
       "weight": 12,
@@ -2628,7 +2628,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "293": {
-      "identifier": "whismur",
+      "name": "whismur",
       "species_id": 293,
       "height": 6,
       "weight": 163,
@@ -2637,7 +2637,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "294": {
-      "identifier": "loudred",
+      "name": "loudred",
       "species_id": 294,
       "height": 10,
       "weight": 405,
@@ -2646,7 +2646,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "295": {
-      "identifier": "exploud",
+      "name": "exploud",
       "species_id": 295,
       "height": 15,
       "weight": 840,
@@ -2655,7 +2655,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "296": {
-      "identifier": "makuhita",
+      "name": "makuhita",
       "species_id": 296,
       "height": 10,
       "weight": 864,
@@ -2664,7 +2664,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "297": {
-      "identifier": "hariyama",
+      "name": "hariyama",
       "species_id": 297,
       "height": 23,
       "weight": 2538,
@@ -2673,7 +2673,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "298": {
-      "identifier": "azurill",
+      "name": "azurill",
       "species_id": 298,
       "height": 2,
       "weight": 20,
@@ -2682,7 +2682,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "299": {
-      "identifier": "nosepass",
+      "name": "nosepass",
       "species_id": 299,
       "height": 10,
       "weight": 970,
@@ -2691,7 +2691,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "300": {
-      "identifier": "skitty",
+      "name": "skitty",
       "species_id": 300,
       "height": 6,
       "weight": 110,
@@ -2700,7 +2700,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "301": {
-      "identifier": "delcatty",
+      "name": "delcatty",
       "species_id": 301,
       "height": 11,
       "weight": 326,
@@ -2709,7 +2709,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "302": {
-      "identifier": "sableye",
+      "name": "sableye",
       "species_id": 302,
       "height": 5,
       "weight": 110,
@@ -2718,7 +2718,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "303": {
-      "identifier": "mawile",
+      "name": "mawile",
       "species_id": 303,
       "height": 6,
       "weight": 115,
@@ -2727,7 +2727,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "304": {
-      "identifier": "aron",
+      "name": "aron",
       "species_id": 304,
       "height": 4,
       "weight": 600,
@@ -2736,7 +2736,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "305": {
-      "identifier": "lairon",
+      "name": "lairon",
       "species_id": 305,
       "height": 9,
       "weight": 1200,
@@ -2745,7 +2745,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "306": {
-      "identifier": "aggron",
+      "name": "aggron",
       "species_id": 306,
       "height": 21,
       "weight": 3600,
@@ -2754,7 +2754,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "307": {
-      "identifier": "meditite",
+      "name": "meditite",
       "species_id": 307,
       "height": 6,
       "weight": 112,
@@ -2763,7 +2763,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "308": {
-      "identifier": "medicham",
+      "name": "medicham",
       "species_id": 308,
       "height": 13,
       "weight": 315,
@@ -2772,7 +2772,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "309": {
-      "identifier": "electrike",
+      "name": "electrike",
       "species_id": 309,
       "height": 6,
       "weight": 152,
@@ -2781,7 +2781,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "310": {
-      "identifier": "manectric",
+      "name": "manectric",
       "species_id": 310,
       "height": 15,
       "weight": 402,
@@ -2790,7 +2790,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "311": {
-      "identifier": "plusle",
+      "name": "plusle",
       "species_id": 311,
       "height": 4,
       "weight": 42,
@@ -2799,7 +2799,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "312": {
-      "identifier": "minun",
+      "name": "minun",
       "species_id": 312,
       "height": 4,
       "weight": 42,
@@ -2808,7 +2808,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "313": {
-      "identifier": "volbeat",
+      "name": "volbeat",
       "species_id": 313,
       "height": 7,
       "weight": 177,
@@ -2817,7 +2817,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "314": {
-      "identifier": "illumise",
+      "name": "illumise",
       "species_id": 314,
       "height": 6,
       "weight": 177,
@@ -2826,7 +2826,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "315": {
-      "identifier": "roselia",
+      "name": "roselia",
       "species_id": 315,
       "height": 3,
       "weight": 20,
@@ -2835,7 +2835,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "316": {
-      "identifier": "gulpin",
+      "name": "gulpin",
       "species_id": 316,
       "height": 4,
       "weight": 103,
@@ -2844,7 +2844,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "317": {
-      "identifier": "swalot",
+      "name": "swalot",
       "species_id": 317,
       "height": 17,
       "weight": 800,
@@ -2853,7 +2853,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "318": {
-      "identifier": "carvanha",
+      "name": "carvanha",
       "species_id": 318,
       "height": 8,
       "weight": 208,
@@ -2862,7 +2862,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "319": {
-      "identifier": "sharpedo",
+      "name": "sharpedo",
       "species_id": 319,
       "height": 18,
       "weight": 888,
@@ -2871,7 +2871,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "320": {
-      "identifier": "wailmer",
+      "name": "wailmer",
       "species_id": 320,
       "height": 20,
       "weight": 1300,
@@ -2880,7 +2880,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "321": {
-      "identifier": "wailord",
+      "name": "wailord",
       "species_id": 321,
       "height": 145,
       "weight": 3980,
@@ -2889,7 +2889,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "322": {
-      "identifier": "numel",
+      "name": "numel",
       "species_id": 322,
       "height": 7,
       "weight": 240,
@@ -2898,7 +2898,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "323": {
-      "identifier": "camerupt",
+      "name": "camerupt",
       "species_id": 323,
       "height": 19,
       "weight": 2200,
@@ -2907,7 +2907,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "324": {
-      "identifier": "torkoal",
+      "name": "torkoal",
       "species_id": 324,
       "height": 5,
       "weight": 804,
@@ -2916,7 +2916,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "325": {
-      "identifier": "spoink",
+      "name": "spoink",
       "species_id": 325,
       "height": 7,
       "weight": 306,
@@ -2925,7 +2925,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "326": {
-      "identifier": "grumpig",
+      "name": "grumpig",
       "species_id": 326,
       "height": 9,
       "weight": 715,
@@ -2934,7 +2934,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "327": {
-      "identifier": "spinda",
+      "name": "spinda",
       "species_id": 327,
       "height": 11,
       "weight": 50,
@@ -2943,7 +2943,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "328": {
-      "identifier": "trapinch",
+      "name": "trapinch",
       "species_id": 328,
       "height": 7,
       "weight": 150,
@@ -2952,7 +2952,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "329": {
-      "identifier": "vibrava",
+      "name": "vibrava",
       "species_id": 329,
       "height": 11,
       "weight": 153,
@@ -2961,7 +2961,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "330": {
-      "identifier": "flygon",
+      "name": "flygon",
       "species_id": 330,
       "height": 20,
       "weight": 820,
@@ -2970,7 +2970,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "331": {
-      "identifier": "cacnea",
+      "name": "cacnea",
       "species_id": 331,
       "height": 4,
       "weight": 513,
@@ -2979,7 +2979,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "332": {
-      "identifier": "cacturne",
+      "name": "cacturne",
       "species_id": 332,
       "height": 13,
       "weight": 774,
@@ -2988,7 +2988,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "333": {
-      "identifier": "swablu",
+      "name": "swablu",
       "species_id": 333,
       "height": 4,
       "weight": 12,
@@ -2997,7 +2997,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "334": {
-      "identifier": "altaria",
+      "name": "altaria",
       "species_id": 334,
       "height": 11,
       "weight": 206,
@@ -3006,7 +3006,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "335": {
-      "identifier": "zangoose",
+      "name": "zangoose",
       "species_id": 335,
       "height": 13,
       "weight": 403,
@@ -3015,7 +3015,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "336": {
-      "identifier": "seviper",
+      "name": "seviper",
       "species_id": 336,
       "height": 27,
       "weight": 525,
@@ -3024,7 +3024,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "337": {
-      "identifier": "lunatone",
+      "name": "lunatone",
       "species_id": 337,
       "height": 10,
       "weight": 1680,
@@ -3033,7 +3033,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "338": {
-      "identifier": "solrock",
+      "name": "solrock",
       "species_id": 338,
       "height": 12,
       "weight": 1540,
@@ -3042,7 +3042,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "339": {
-      "identifier": "barboach",
+      "name": "barboach",
       "species_id": 339,
       "height": 4,
       "weight": 19,
@@ -3051,7 +3051,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "340": {
-      "identifier": "whiscash",
+      "name": "whiscash",
       "species_id": 340,
       "height": 9,
       "weight": 236,
@@ -3060,7 +3060,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "341": {
-      "identifier": "corphish",
+      "name": "corphish",
       "species_id": 341,
       "height": 6,
       "weight": 115,
@@ -3069,7 +3069,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "342": {
-      "identifier": "crawdaunt",
+      "name": "crawdaunt",
       "species_id": 342,
       "height": 11,
       "weight": 328,
@@ -3078,7 +3078,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "343": {
-      "identifier": "baltoy",
+      "name": "baltoy",
       "species_id": 343,
       "height": 5,
       "weight": 215,
@@ -3087,7 +3087,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "344": {
-      "identifier": "claydol",
+      "name": "claydol",
       "species_id": 344,
       "height": 15,
       "weight": 1080,
@@ -3096,7 +3096,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "345": {
-      "identifier": "lileep",
+      "name": "lileep",
       "species_id": 345,
       "height": 10,
       "weight": 238,
@@ -3105,7 +3105,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "346": {
-      "identifier": "cradily",
+      "name": "cradily",
       "species_id": 346,
       "height": 15,
       "weight": 604,
@@ -3114,7 +3114,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "347": {
-      "identifier": "anorith",
+      "name": "anorith",
       "species_id": 347,
       "height": 7,
       "weight": 125,
@@ -3123,7 +3123,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "348": {
-      "identifier": "armaldo",
+      "name": "armaldo",
       "species_id": 348,
       "height": 15,
       "weight": 682,
@@ -3132,7 +3132,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "349": {
-      "identifier": "feebas",
+      "name": "feebas",
       "species_id": 349,
       "height": 6,
       "weight": 74,
@@ -3141,7 +3141,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "350": {
-      "identifier": "milotic",
+      "name": "milotic",
       "species_id": 350,
       "height": 62,
       "weight": 1620,
@@ -3150,7 +3150,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "351": {
-      "identifier": "castform",
+      "name": "castform",
       "species_id": 351,
       "height": 3,
       "weight": 8,
@@ -3159,7 +3159,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "352": {
-      "identifier": "kecleon",
+      "name": "kecleon",
       "species_id": 352,
       "height": 10,
       "weight": 220,
@@ -3168,7 +3168,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "353": {
-      "identifier": "shuppet",
+      "name": "shuppet",
       "species_id": 353,
       "height": 6,
       "weight": 23,
@@ -3177,7 +3177,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "354": {
-      "identifier": "banette",
+      "name": "banette",
       "species_id": 354,
       "height": 11,
       "weight": 125,
@@ -3186,7 +3186,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "355": {
-      "identifier": "duskull",
+      "name": "duskull",
       "species_id": 355,
       "height": 8,
       "weight": 150,
@@ -3195,7 +3195,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "356": {
-      "identifier": "dusclops",
+      "name": "dusclops",
       "species_id": 356,
       "height": 16,
       "weight": 306,
@@ -3204,7 +3204,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "357": {
-      "identifier": "tropius",
+      "name": "tropius",
       "species_id": 357,
       "height": 20,
       "weight": 1000,
@@ -3213,7 +3213,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "358": {
-      "identifier": "chimecho",
+      "name": "chimecho",
       "species_id": 358,
       "height": 6,
       "weight": 10,
@@ -3222,7 +3222,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "359": {
-      "identifier": "absol",
+      "name": "absol",
       "species_id": 359,
       "height": 12,
       "weight": 470,
@@ -3231,7 +3231,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "360": {
-      "identifier": "wynaut",
+      "name": "wynaut",
       "species_id": 360,
       "height": 6,
       "weight": 140,
@@ -3240,7 +3240,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "361": {
-      "identifier": "snorunt",
+      "name": "snorunt",
       "species_id": 361,
       "height": 7,
       "weight": 168,
@@ -3249,7 +3249,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "362": {
-      "identifier": "glalie",
+      "name": "glalie",
       "species_id": 362,
       "height": 15,
       "weight": 2565,
@@ -3258,7 +3258,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "363": {
-      "identifier": "spheal",
+      "name": "spheal",
       "species_id": 363,
       "height": 8,
       "weight": 395,
@@ -3267,7 +3267,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "364": {
-      "identifier": "sealeo",
+      "name": "sealeo",
       "species_id": 364,
       "height": 11,
       "weight": 876,
@@ -3276,7 +3276,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "365": {
-      "identifier": "walrein",
+      "name": "walrein",
       "species_id": 365,
       "height": 14,
       "weight": 1506,
@@ -3285,7 +3285,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "366": {
-      "identifier": "clamperl",
+      "name": "clamperl",
       "species_id": 366,
       "height": 4,
       "weight": 525,
@@ -3294,7 +3294,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "367": {
-      "identifier": "huntail",
+      "name": "huntail",
       "species_id": 367,
       "height": 17,
       "weight": 270,
@@ -3303,7 +3303,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "368": {
-      "identifier": "gorebyss",
+      "name": "gorebyss",
       "species_id": 368,
       "height": 18,
       "weight": 226,
@@ -3312,7 +3312,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "369": {
-      "identifier": "relicanth",
+      "name": "relicanth",
       "species_id": 369,
       "height": 10,
       "weight": 234,
@@ -3321,7 +3321,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "370": {
-      "identifier": "luvdisc",
+      "name": "luvdisc",
       "species_id": 370,
       "height": 6,
       "weight": 87,
@@ -3330,7 +3330,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "371": {
-      "identifier": "bagon",
+      "name": "bagon",
       "species_id": 371,
       "height": 6,
       "weight": 421,
@@ -3339,7 +3339,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "372": {
-      "identifier": "shelgon",
+      "name": "shelgon",
       "species_id": 372,
       "height": 11,
       "weight": 1105,
@@ -3348,7 +3348,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "373": {
-      "identifier": "salamence",
+      "name": "salamence",
       "species_id": 373,
       "height": 15,
       "weight": 1026,
@@ -3357,7 +3357,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "374": {
-      "identifier": "beldum",
+      "name": "beldum",
       "species_id": 374,
       "height": 6,
       "weight": 952,
@@ -3366,7 +3366,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "375": {
-      "identifier": "metang",
+      "name": "metang",
       "species_id": 375,
       "height": 12,
       "weight": 2025,
@@ -3375,7 +3375,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "376": {
-      "identifier": "metagross",
+      "name": "metagross",
       "species_id": 376,
       "height": 16,
       "weight": 5500,
@@ -3384,7 +3384,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "377": {
-      "identifier": "regirock",
+      "name": "regirock",
       "species_id": 377,
       "height": 17,
       "weight": 2300,
@@ -3393,7 +3393,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "378": {
-      "identifier": "regice",
+      "name": "regice",
       "species_id": 378,
       "height": 18,
       "weight": 1750,
@@ -3402,7 +3402,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "379": {
-      "identifier": "registeel",
+      "name": "registeel",
       "species_id": 379,
       "height": 19,
       "weight": 2050,
@@ -3411,7 +3411,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "380": {
-      "identifier": "latias",
+      "name": "latias",
       "species_id": 380,
       "height": 14,
       "weight": 400,
@@ -3420,7 +3420,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "381": {
-      "identifier": "latios",
+      "name": "latios",
       "species_id": 381,
       "height": 20,
       "weight": 600,
@@ -3429,7 +3429,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "382": {
-      "identifier": "kyogre",
+      "name": "kyogre",
       "species_id": 382,
       "height": 45,
       "weight": 3520,
@@ -3438,7 +3438,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "383": {
-      "identifier": "groudon",
+      "name": "groudon",
       "species_id": 383,
       "height": 35,
       "weight": 9500,
@@ -3447,7 +3447,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "384": {
-      "identifier": "rayquaza",
+      "name": "rayquaza",
       "species_id": 384,
       "height": 70,
       "weight": 2065,
@@ -3456,7 +3456,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "385": {
-      "identifier": "jirachi",
+      "name": "jirachi",
       "species_id": 385,
       "height": 3,
       "weight": 11,
@@ -3465,7 +3465,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "386": {
-      "identifier": "deoxys-normal",
+      "name": "deoxys-normal",
       "species_id": 386,
       "height": 17,
       "weight": 608,
@@ -3474,7 +3474,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "387": {
-      "identifier": "turtwig",
+      "name": "turtwig",
       "species_id": 387,
       "height": 4,
       "weight": 102,
@@ -3483,7 +3483,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "388": {
-      "identifier": "grotle",
+      "name": "grotle",
       "species_id": 388,
       "height": 11,
       "weight": 970,
@@ -3492,7 +3492,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "389": {
-      "identifier": "torterra",
+      "name": "torterra",
       "species_id": 389,
       "height": 22,
       "weight": 3100,
@@ -3501,7 +3501,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "390": {
-      "identifier": "chimchar",
+      "name": "chimchar",
       "species_id": 390,
       "height": 5,
       "weight": 62,
@@ -3510,7 +3510,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "391": {
-      "identifier": "monferno",
+      "name": "monferno",
       "species_id": 391,
       "height": 9,
       "weight": 220,
@@ -3519,7 +3519,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "392": {
-      "identifier": "infernape",
+      "name": "infernape",
       "species_id": 392,
       "height": 12,
       "weight": 550,
@@ -3528,7 +3528,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "393": {
-      "identifier": "piplup",
+      "name": "piplup",
       "species_id": 393,
       "height": 4,
       "weight": 52,
@@ -3537,7 +3537,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "394": {
-      "identifier": "prinplup",
+      "name": "prinplup",
       "species_id": 394,
       "height": 8,
       "weight": 230,
@@ -3546,7 +3546,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "395": {
-      "identifier": "empoleon",
+      "name": "empoleon",
       "species_id": 395,
       "height": 17,
       "weight": 845,
@@ -3555,7 +3555,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "396": {
-      "identifier": "starly",
+      "name": "starly",
       "species_id": 396,
       "height": 3,
       "weight": 20,
@@ -3564,7 +3564,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "397": {
-      "identifier": "staravia",
+      "name": "staravia",
       "species_id": 397,
       "height": 6,
       "weight": 155,
@@ -3573,7 +3573,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "398": {
-      "identifier": "staraptor",
+      "name": "staraptor",
       "species_id": 398,
       "height": 12,
       "weight": 249,
@@ -3582,7 +3582,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "399": {
-      "identifier": "bidoof",
+      "name": "bidoof",
       "species_id": 399,
       "height": 5,
       "weight": 200,
@@ -3591,7 +3591,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "400": {
-      "identifier": "bibarel",
+      "name": "bibarel",
       "species_id": 400,
       "height": 10,
       "weight": 315,
@@ -3600,7 +3600,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "401": {
-      "identifier": "kricketot",
+      "name": "kricketot",
       "species_id": 401,
       "height": 3,
       "weight": 22,
@@ -3609,7 +3609,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "402": {
-      "identifier": "kricketune",
+      "name": "kricketune",
       "species_id": 402,
       "height": 10,
       "weight": 255,
@@ -3618,7 +3618,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "403": {
-      "identifier": "shinx",
+      "name": "shinx",
       "species_id": 403,
       "height": 5,
       "weight": 95,
@@ -3627,7 +3627,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "404": {
-      "identifier": "luxio",
+      "name": "luxio",
       "species_id": 404,
       "height": 9,
       "weight": 305,
@@ -3636,7 +3636,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "405": {
-      "identifier": "luxray",
+      "name": "luxray",
       "species_id": 405,
       "height": 14,
       "weight": 420,
@@ -3645,7 +3645,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "406": {
-      "identifier": "budew",
+      "name": "budew",
       "species_id": 406,
       "height": 2,
       "weight": 12,
@@ -3654,7 +3654,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "407": {
-      "identifier": "roserade",
+      "name": "roserade",
       "species_id": 407,
       "height": 9,
       "weight": 145,
@@ -3663,7 +3663,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "408": {
-      "identifier": "cranidos",
+      "name": "cranidos",
       "species_id": 408,
       "height": 9,
       "weight": 315,
@@ -3672,7 +3672,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "409": {
-      "identifier": "rampardos",
+      "name": "rampardos",
       "species_id": 409,
       "height": 16,
       "weight": 1025,
@@ -3681,7 +3681,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "410": {
-      "identifier": "shieldon",
+      "name": "shieldon",
       "species_id": 410,
       "height": 5,
       "weight": 570,
@@ -3690,7 +3690,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "411": {
-      "identifier": "bastiodon",
+      "name": "bastiodon",
       "species_id": 411,
       "height": 13,
       "weight": 1495,
@@ -3699,7 +3699,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "412": {
-      "identifier": "burmy",
+      "name": "burmy",
       "species_id": 412,
       "height": 2,
       "weight": 34,
@@ -3708,7 +3708,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "413": {
-      "identifier": "wormadam-plant",
+      "name": "wormadam-plant",
       "species_id": 413,
       "height": 5,
       "weight": 65,
@@ -3717,7 +3717,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "414": {
-      "identifier": "mothim",
+      "name": "mothim",
       "species_id": 414,
       "height": 9,
       "weight": 233,
@@ -3726,7 +3726,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "415": {
-      "identifier": "combee",
+      "name": "combee",
       "species_id": 415,
       "height": 3,
       "weight": 55,
@@ -3735,7 +3735,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "416": {
-      "identifier": "vespiquen",
+      "name": "vespiquen",
       "species_id": 416,
       "height": 12,
       "weight": 385,
@@ -3744,7 +3744,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "417": {
-      "identifier": "pachirisu",
+      "name": "pachirisu",
       "species_id": 417,
       "height": 4,
       "weight": 39,
@@ -3753,7 +3753,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "418": {
-      "identifier": "buizel",
+      "name": "buizel",
       "species_id": 418,
       "height": 7,
       "weight": 295,
@@ -3762,7 +3762,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "419": {
-      "identifier": "floatzel",
+      "name": "floatzel",
       "species_id": 419,
       "height": 11,
       "weight": 335,
@@ -3771,7 +3771,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "420": {
-      "identifier": "cherubi",
+      "name": "cherubi",
       "species_id": 420,
       "height": 4,
       "weight": 33,
@@ -3780,7 +3780,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "421": {
-      "identifier": "cherrim",
+      "name": "cherrim",
       "species_id": 421,
       "height": 5,
       "weight": 93,
@@ -3789,7 +3789,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "422": {
-      "identifier": "shellos",
+      "name": "shellos",
       "species_id": 422,
       "height": 3,
       "weight": 63,
@@ -3798,7 +3798,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "423": {
-      "identifier": "gastrodon",
+      "name": "gastrodon",
       "species_id": 423,
       "height": 9,
       "weight": 299,
@@ -3807,7 +3807,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "424": {
-      "identifier": "ambipom",
+      "name": "ambipom",
       "species_id": 424,
       "height": 12,
       "weight": 203,
@@ -3816,7 +3816,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "425": {
-      "identifier": "drifloon",
+      "name": "drifloon",
       "species_id": 425,
       "height": 4,
       "weight": 12,
@@ -3825,7 +3825,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "426": {
-      "identifier": "drifblim",
+      "name": "drifblim",
       "species_id": 426,
       "height": 12,
       "weight": 150,
@@ -3834,7 +3834,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "427": {
-      "identifier": "buneary",
+      "name": "buneary",
       "species_id": 427,
       "height": 4,
       "weight": 55,
@@ -3843,7 +3843,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "428": {
-      "identifier": "lopunny",
+      "name": "lopunny",
       "species_id": 428,
       "height": 12,
       "weight": 333,
@@ -3852,7 +3852,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "429": {
-      "identifier": "mismagius",
+      "name": "mismagius",
       "species_id": 429,
       "height": 9,
       "weight": 44,
@@ -3861,7 +3861,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "430": {
-      "identifier": "honchkrow",
+      "name": "honchkrow",
       "species_id": 430,
       "height": 9,
       "weight": 273,
@@ -3870,7 +3870,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "431": {
-      "identifier": "glameow",
+      "name": "glameow",
       "species_id": 431,
       "height": 5,
       "weight": 39,
@@ -3879,7 +3879,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "432": {
-      "identifier": "purugly",
+      "name": "purugly",
       "species_id": 432,
       "height": 10,
       "weight": 438,
@@ -3888,7 +3888,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "433": {
-      "identifier": "chingling",
+      "name": "chingling",
       "species_id": 433,
       "height": 2,
       "weight": 6,
@@ -3897,7 +3897,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "434": {
-      "identifier": "stunky",
+      "name": "stunky",
       "species_id": 434,
       "height": 4,
       "weight": 192,
@@ -3906,7 +3906,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "435": {
-      "identifier": "skuntank",
+      "name": "skuntank",
       "species_id": 435,
       "height": 10,
       "weight": 380,
@@ -3915,7 +3915,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "436": {
-      "identifier": "bronzor",
+      "name": "bronzor",
       "species_id": 436,
       "height": 5,
       "weight": 605,
@@ -3924,7 +3924,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "437": {
-      "identifier": "bronzong",
+      "name": "bronzong",
       "species_id": 437,
       "height": 13,
       "weight": 1870,
@@ -3933,7 +3933,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "438": {
-      "identifier": "bonsly",
+      "name": "bonsly",
       "species_id": 438,
       "height": 5,
       "weight": 150,
@@ -3942,7 +3942,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "439": {
-      "identifier": "mime-jr",
+      "name": "mime-jr",
       "species_id": 439,
       "height": 6,
       "weight": 130,
@@ -3951,7 +3951,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "440": {
-      "identifier": "happiny",
+      "name": "happiny",
       "species_id": 440,
       "height": 6,
       "weight": 244,
@@ -3960,7 +3960,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "441": {
-      "identifier": "chatot",
+      "name": "chatot",
       "species_id": 441,
       "height": 5,
       "weight": 19,
@@ -3969,7 +3969,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "442": {
-      "identifier": "spiritomb",
+      "name": "spiritomb",
       "species_id": 442,
       "height": 10,
       "weight": 1080,
@@ -3978,7 +3978,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "443": {
-      "identifier": "gible",
+      "name": "gible",
       "species_id": 443,
       "height": 7,
       "weight": 205,
@@ -3987,7 +3987,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "444": {
-      "identifier": "gabite",
+      "name": "gabite",
       "species_id": 444,
       "height": 14,
       "weight": 560,
@@ -3996,7 +3996,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "445": {
-      "identifier": "garchomp",
+      "name": "garchomp",
       "species_id": 445,
       "height": 19,
       "weight": 950,
@@ -4005,7 +4005,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "446": {
-      "identifier": "munchlax",
+      "name": "munchlax",
       "species_id": 446,
       "height": 6,
       "weight": 1050,
@@ -4014,7 +4014,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "447": {
-      "identifier": "riolu",
+      "name": "riolu",
       "species_id": 447,
       "height": 7,
       "weight": 202,
@@ -4023,7 +4023,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "448": {
-      "identifier": "lucario",
+      "name": "lucario",
       "species_id": 448,
       "height": 12,
       "weight": 540,
@@ -4032,7 +4032,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "449": {
-      "identifier": "hippopotas",
+      "name": "hippopotas",
       "species_id": 449,
       "height": 8,
       "weight": 495,
@@ -4041,7 +4041,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "450": {
-      "identifier": "hippowdon",
+      "name": "hippowdon",
       "species_id": 450,
       "height": 20,
       "weight": 3000,
@@ -4050,7 +4050,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "451": {
-      "identifier": "skorupi",
+      "name": "skorupi",
       "species_id": 451,
       "height": 8,
       "weight": 120,
@@ -4059,7 +4059,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "452": {
-      "identifier": "drapion",
+      "name": "drapion",
       "species_id": 452,
       "height": 13,
       "weight": 615,
@@ -4068,7 +4068,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "453": {
-      "identifier": "croagunk",
+      "name": "croagunk",
       "species_id": 453,
       "height": 7,
       "weight": 230,
@@ -4077,7 +4077,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "454": {
-      "identifier": "toxicroak",
+      "name": "toxicroak",
       "species_id": 454,
       "height": 13,
       "weight": 444,
@@ -4086,7 +4086,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "455": {
-      "identifier": "carnivine",
+      "name": "carnivine",
       "species_id": 455,
       "height": 14,
       "weight": 270,
@@ -4095,7 +4095,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "456": {
-      "identifier": "finneon",
+      "name": "finneon",
       "species_id": 456,
       "height": 4,
       "weight": 70,
@@ -4104,7 +4104,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "457": {
-      "identifier": "lumineon",
+      "name": "lumineon",
       "species_id": 457,
       "height": 12,
       "weight": 240,
@@ -4113,7 +4113,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "458": {
-      "identifier": "mantyke",
+      "name": "mantyke",
       "species_id": 458,
       "height": 10,
       "weight": 650,
@@ -4122,7 +4122,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "459": {
-      "identifier": "snover",
+      "name": "snover",
       "species_id": 459,
       "height": 10,
       "weight": 505,
@@ -4131,7 +4131,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "460": {
-      "identifier": "abomasnow",
+      "name": "abomasnow",
       "species_id": 460,
       "height": 22,
       "weight": 1355,
@@ -4140,7 +4140,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "461": {
-      "identifier": "weavile",
+      "name": "weavile",
       "species_id": 461,
       "height": 11,
       "weight": 340,
@@ -4149,7 +4149,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "462": {
-      "identifier": "magnezone",
+      "name": "magnezone",
       "species_id": 462,
       "height": 12,
       "weight": 1800,
@@ -4158,7 +4158,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "463": {
-      "identifier": "lickilicky",
+      "name": "lickilicky",
       "species_id": 463,
       "height": 17,
       "weight": 1400,
@@ -4167,7 +4167,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "464": {
-      "identifier": "rhyperior",
+      "name": "rhyperior",
       "species_id": 464,
       "height": 24,
       "weight": 2828,
@@ -4176,7 +4176,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "465": {
-      "identifier": "tangrowth",
+      "name": "tangrowth",
       "species_id": 465,
       "height": 20,
       "weight": 1286,
@@ -4185,7 +4185,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "466": {
-      "identifier": "electivire",
+      "name": "electivire",
       "species_id": 466,
       "height": 18,
       "weight": 1386,
@@ -4194,7 +4194,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "467": {
-      "identifier": "magmortar",
+      "name": "magmortar",
       "species_id": 467,
       "height": 16,
       "weight": 680,
@@ -4203,7 +4203,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "468": {
-      "identifier": "togekiss",
+      "name": "togekiss",
       "species_id": 468,
       "height": 15,
       "weight": 380,
@@ -4212,7 +4212,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "469": {
-      "identifier": "yanmega",
+      "name": "yanmega",
       "species_id": 469,
       "height": 19,
       "weight": 515,
@@ -4221,7 +4221,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "470": {
-      "identifier": "leafeon",
+      "name": "leafeon",
       "species_id": 470,
       "height": 10,
       "weight": 255,
@@ -4230,7 +4230,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "471": {
-      "identifier": "glaceon",
+      "name": "glaceon",
       "species_id": 471,
       "height": 8,
       "weight": 259,
@@ -4239,7 +4239,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "472": {
-      "identifier": "gliscor",
+      "name": "gliscor",
       "species_id": 472,
       "height": 20,
       "weight": 425,
@@ -4248,7 +4248,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "473": {
-      "identifier": "mamoswine",
+      "name": "mamoswine",
       "species_id": 473,
       "height": 25,
       "weight": 2910,
@@ -4257,7 +4257,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "474": {
-      "identifier": "porygon-z",
+      "name": "porygon-z",
       "species_id": 474,
       "height": 9,
       "weight": 340,
@@ -4266,7 +4266,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "475": {
-      "identifier": "gallade",
+      "name": "gallade",
       "species_id": 475,
       "height": 16,
       "weight": 520,
@@ -4275,7 +4275,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "476": {
-      "identifier": "probopass",
+      "name": "probopass",
       "species_id": 476,
       "height": 14,
       "weight": 3400,
@@ -4284,7 +4284,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "477": {
-      "identifier": "dusknoir",
+      "name": "dusknoir",
       "species_id": 477,
       "height": 22,
       "weight": 1066,
@@ -4293,7 +4293,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "478": {
-      "identifier": "froslass",
+      "name": "froslass",
       "species_id": 478,
       "height": 13,
       "weight": 266,
@@ -4302,7 +4302,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "479": {
-      "identifier": "rotom",
+      "name": "rotom",
       "species_id": 479,
       "height": 3,
       "weight": 3,
@@ -4311,7 +4311,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "480": {
-      "identifier": "uxie",
+      "name": "uxie",
       "species_id": 480,
       "height": 3,
       "weight": 3,
@@ -4320,7 +4320,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "481": {
-      "identifier": "mesprit",
+      "name": "mesprit",
       "species_id": 481,
       "height": 3,
       "weight": 3,
@@ -4329,7 +4329,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "482": {
-      "identifier": "azelf",
+      "name": "azelf",
       "species_id": 482,
       "height": 3,
       "weight": 3,
@@ -4338,7 +4338,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "483": {
-      "identifier": "dialga",
+      "name": "dialga",
       "species_id": 483,
       "height": 54,
       "weight": 6830,
@@ -4347,7 +4347,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "484": {
-      "identifier": "palkia",
+      "name": "palkia",
       "species_id": 484,
       "height": 42,
       "weight": 3360,
@@ -4356,7 +4356,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "485": {
-      "identifier": "heatran",
+      "name": "heatran",
       "species_id": 485,
       "height": 17,
       "weight": 4300,
@@ -4365,7 +4365,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "486": {
-      "identifier": "regigigas",
+      "name": "regigigas",
       "species_id": 486,
       "height": 37,
       "weight": 4200,
@@ -4374,7 +4374,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "487": {
-      "identifier": "giratina-altered",
+      "name": "giratina-altered",
       "species_id": 487,
       "height": 45,
       "weight": 7500,
@@ -4383,7 +4383,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "488": {
-      "identifier": "cresselia",
+      "name": "cresselia",
       "species_id": 488,
       "height": 15,
       "weight": 856,
@@ -4392,7 +4392,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "489": {
-      "identifier": "phione",
+      "name": "phione",
       "species_id": 489,
       "height": 4,
       "weight": 31,
@@ -4401,7 +4401,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "490": {
-      "identifier": "manaphy",
+      "name": "manaphy",
       "species_id": 490,
       "height": 3,
       "weight": 14,
@@ -4410,7 +4410,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "491": {
-      "identifier": "darkrai",
+      "name": "darkrai",
       "species_id": 491,
       "height": 15,
       "weight": 505,
@@ -4419,7 +4419,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "492": {
-      "identifier": "shaymin-land",
+      "name": "shaymin-land",
       "species_id": 492,
       "height": 2,
       "weight": 21,
@@ -4428,7 +4428,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "493": {
-      "identifier": "arceus",
+      "name": "arceus",
       "species_id": 493,
       "height": 32,
       "weight": 3200,
@@ -4437,7 +4437,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "494": {
-      "identifier": "victini",
+      "name": "victini",
       "species_id": 494,
       "height": 4,
       "weight": 40,
@@ -4446,7 +4446,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "495": {
-      "identifier": "snivy",
+      "name": "snivy",
       "species_id": 495,
       "height": 6,
       "weight": 81,
@@ -4455,7 +4455,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "496": {
-      "identifier": "servine",
+      "name": "servine",
       "species_id": 496,
       "height": 8,
       "weight": 160,
@@ -4464,7 +4464,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "497": {
-      "identifier": "serperior",
+      "name": "serperior",
       "species_id": 497,
       "height": 33,
       "weight": 630,
@@ -4473,7 +4473,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "498": {
-      "identifier": "tepig",
+      "name": "tepig",
       "species_id": 498,
       "height": 5,
       "weight": 99,
@@ -4482,7 +4482,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "499": {
-      "identifier": "pignite",
+      "name": "pignite",
       "species_id": 499,
       "height": 10,
       "weight": 555,
@@ -4491,7 +4491,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "500": {
-      "identifier": "emboar",
+      "name": "emboar",
       "species_id": 500,
       "height": 16,
       "weight": 1500,
@@ -4500,7 +4500,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "501": {
-      "identifier": "oshawott",
+      "name": "oshawott",
       "species_id": 501,
       "height": 5,
       "weight": 59,
@@ -4509,7 +4509,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "502": {
-      "identifier": "dewott",
+      "name": "dewott",
       "species_id": 502,
       "height": 8,
       "weight": 245,
@@ -4518,7 +4518,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "503": {
-      "identifier": "samurott",
+      "name": "samurott",
       "species_id": 503,
       "height": 15,
       "weight": 946,
@@ -4527,7 +4527,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "504": {
-      "identifier": "patrat",
+      "name": "patrat",
       "species_id": 504,
       "height": 5,
       "weight": 116,
@@ -4536,7 +4536,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "505": {
-      "identifier": "watchog",
+      "name": "watchog",
       "species_id": 505,
       "height": 11,
       "weight": 270,
@@ -4545,7 +4545,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "506": {
-      "identifier": "lillipup",
+      "name": "lillipup",
       "species_id": 506,
       "height": 4,
       "weight": 41,
@@ -4554,7 +4554,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "507": {
-      "identifier": "herdier",
+      "name": "herdier",
       "species_id": 507,
       "height": 9,
       "weight": 147,
@@ -4563,7 +4563,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "508": {
-      "identifier": "stoutland",
+      "name": "stoutland",
       "species_id": 508,
       "height": 12,
       "weight": 610,
@@ -4572,7 +4572,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "509": {
-      "identifier": "purrloin",
+      "name": "purrloin",
       "species_id": 509,
       "height": 4,
       "weight": 101,
@@ -4581,7 +4581,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "510": {
-      "identifier": "liepard",
+      "name": "liepard",
       "species_id": 510,
       "height": 11,
       "weight": 375,
@@ -4590,7 +4590,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "511": {
-      "identifier": "pansage",
+      "name": "pansage",
       "species_id": 511,
       "height": 6,
       "weight": 105,
@@ -4599,7 +4599,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "512": {
-      "identifier": "simisage",
+      "name": "simisage",
       "species_id": 512,
       "height": 11,
       "weight": 305,
@@ -4608,7 +4608,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "513": {
-      "identifier": "pansear",
+      "name": "pansear",
       "species_id": 513,
       "height": 6,
       "weight": 110,
@@ -4617,7 +4617,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "514": {
-      "identifier": "simisear",
+      "name": "simisear",
       "species_id": 514,
       "height": 10,
       "weight": 280,
@@ -4626,7 +4626,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "515": {
-      "identifier": "panpour",
+      "name": "panpour",
       "species_id": 515,
       "height": 6,
       "weight": 135,
@@ -4635,7 +4635,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "516": {
-      "identifier": "simipour",
+      "name": "simipour",
       "species_id": 516,
       "height": 10,
       "weight": 290,
@@ -4644,7 +4644,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "517": {
-      "identifier": "munna",
+      "name": "munna",
       "species_id": 517,
       "height": 6,
       "weight": 233,
@@ -4653,7 +4653,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "518": {
-      "identifier": "musharna",
+      "name": "musharna",
       "species_id": 518,
       "height": 11,
       "weight": 605,
@@ -4662,7 +4662,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "519": {
-      "identifier": "pidove",
+      "name": "pidove",
       "species_id": 519,
       "height": 3,
       "weight": 21,
@@ -4671,7 +4671,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "520": {
-      "identifier": "tranquill",
+      "name": "tranquill",
       "species_id": 520,
       "height": 6,
       "weight": 150,
@@ -4680,7 +4680,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "521": {
-      "identifier": "unfezant",
+      "name": "unfezant",
       "species_id": 521,
       "height": 12,
       "weight": 290,
@@ -4689,7 +4689,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "522": {
-      "identifier": "blitzle",
+      "name": "blitzle",
       "species_id": 522,
       "height": 8,
       "weight": 298,
@@ -4698,7 +4698,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "523": {
-      "identifier": "zebstrika",
+      "name": "zebstrika",
       "species_id": 523,
       "height": 16,
       "weight": 795,
@@ -4707,7 +4707,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "524": {
-      "identifier": "roggenrola",
+      "name": "roggenrola",
       "species_id": 524,
       "height": 4,
       "weight": 180,
@@ -4716,7 +4716,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "525": {
-      "identifier": "boldore",
+      "name": "boldore",
       "species_id": 525,
       "height": 9,
       "weight": 1020,
@@ -4725,7 +4725,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "526": {
-      "identifier": "gigalith",
+      "name": "gigalith",
       "species_id": 526,
       "height": 17,
       "weight": 2600,
@@ -4734,7 +4734,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "527": {
-      "identifier": "woobat",
+      "name": "woobat",
       "species_id": 527,
       "height": 4,
       "weight": 21,
@@ -4743,7 +4743,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "528": {
-      "identifier": "swoobat",
+      "name": "swoobat",
       "species_id": 528,
       "height": 9,
       "weight": 105,
@@ -4752,7 +4752,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "529": {
-      "identifier": "drilbur",
+      "name": "drilbur",
       "species_id": 529,
       "height": 3,
       "weight": 85,
@@ -4761,7 +4761,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "530": {
-      "identifier": "excadrill",
+      "name": "excadrill",
       "species_id": 530,
       "height": 7,
       "weight": 404,
@@ -4770,7 +4770,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "531": {
-      "identifier": "audino",
+      "name": "audino",
       "species_id": 531,
       "height": 11,
       "weight": 310,
@@ -4779,7 +4779,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "532": {
-      "identifier": "timburr",
+      "name": "timburr",
       "species_id": 532,
       "height": 6,
       "weight": 125,
@@ -4788,7 +4788,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "533": {
-      "identifier": "gurdurr",
+      "name": "gurdurr",
       "species_id": 533,
       "height": 12,
       "weight": 400,
@@ -4797,7 +4797,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "534": {
-      "identifier": "conkeldurr",
+      "name": "conkeldurr",
       "species_id": 534,
       "height": 14,
       "weight": 870,
@@ -4806,7 +4806,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "535": {
-      "identifier": "tympole",
+      "name": "tympole",
       "species_id": 535,
       "height": 5,
       "weight": 45,
@@ -4815,7 +4815,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "536": {
-      "identifier": "palpitoad",
+      "name": "palpitoad",
       "species_id": 536,
       "height": 8,
       "weight": 170,
@@ -4824,7 +4824,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "537": {
-      "identifier": "seismitoad",
+      "name": "seismitoad",
       "species_id": 537,
       "height": 15,
       "weight": 620,
@@ -4833,7 +4833,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "538": {
-      "identifier": "throh",
+      "name": "throh",
       "species_id": 538,
       "height": 13,
       "weight": 555,
@@ -4842,7 +4842,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "539": {
-      "identifier": "sawk",
+      "name": "sawk",
       "species_id": 539,
       "height": 14,
       "weight": 510,
@@ -4851,7 +4851,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "540": {
-      "identifier": "sewaddle",
+      "name": "sewaddle",
       "species_id": 540,
       "height": 3,
       "weight": 25,
@@ -4860,7 +4860,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "541": {
-      "identifier": "swadloon",
+      "name": "swadloon",
       "species_id": 541,
       "height": 5,
       "weight": 73,
@@ -4869,7 +4869,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "542": {
-      "identifier": "leavanny",
+      "name": "leavanny",
       "species_id": 542,
       "height": 12,
       "weight": 205,
@@ -4878,7 +4878,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "543": {
-      "identifier": "venipede",
+      "name": "venipede",
       "species_id": 543,
       "height": 4,
       "weight": 53,
@@ -4887,7 +4887,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "544": {
-      "identifier": "whirlipede",
+      "name": "whirlipede",
       "species_id": 544,
       "height": 12,
       "weight": 585,
@@ -4896,7 +4896,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "545": {
-      "identifier": "scolipede",
+      "name": "scolipede",
       "species_id": 545,
       "height": 25,
       "weight": 2005,
@@ -4905,7 +4905,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "546": {
-      "identifier": "cottonee",
+      "name": "cottonee",
       "species_id": 546,
       "height": 3,
       "weight": 6,
@@ -4914,7 +4914,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "547": {
-      "identifier": "whimsicott",
+      "name": "whimsicott",
       "species_id": 547,
       "height": 7,
       "weight": 66,
@@ -4923,7 +4923,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "548": {
-      "identifier": "petilil",
+      "name": "petilil",
       "species_id": 548,
       "height": 5,
       "weight": 66,
@@ -4932,7 +4932,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "549": {
-      "identifier": "lilligant",
+      "name": "lilligant",
       "species_id": 549,
       "height": 11,
       "weight": 163,
@@ -4941,7 +4941,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "550": {
-      "identifier": "basculin-red-striped",
+      "name": "basculin-red-striped",
       "species_id": 550,
       "height": 10,
       "weight": 180,
@@ -4950,7 +4950,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "551": {
-      "identifier": "sandile",
+      "name": "sandile",
       "species_id": 551,
       "height": 7,
       "weight": 152,
@@ -4959,7 +4959,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "552": {
-      "identifier": "krokorok",
+      "name": "krokorok",
       "species_id": 552,
       "height": 10,
       "weight": 334,
@@ -4968,7 +4968,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "553": {
-      "identifier": "krookodile",
+      "name": "krookodile",
       "species_id": 553,
       "height": 15,
       "weight": 963,
@@ -4977,7 +4977,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "554": {
-      "identifier": "darumaka",
+      "name": "darumaka",
       "species_id": 554,
       "height": 6,
       "weight": 375,
@@ -4986,7 +4986,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "555": {
-      "identifier": "darmanitan-standard",
+      "name": "darmanitan-standard",
       "species_id": 555,
       "height": 13,
       "weight": 929,
@@ -4995,7 +4995,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "556": {
-      "identifier": "maractus",
+      "name": "maractus",
       "species_id": 556,
       "height": 10,
       "weight": 280,
@@ -5004,7 +5004,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "557": {
-      "identifier": "dwebble",
+      "name": "dwebble",
       "species_id": 557,
       "height": 3,
       "weight": 145,
@@ -5013,7 +5013,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "558": {
-      "identifier": "crustle",
+      "name": "crustle",
       "species_id": 558,
       "height": 14,
       "weight": 2000,
@@ -5022,7 +5022,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "559": {
-      "identifier": "scraggy",
+      "name": "scraggy",
       "species_id": 559,
       "height": 6,
       "weight": 118,
@@ -5031,7 +5031,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "560": {
-      "identifier": "scrafty",
+      "name": "scrafty",
       "species_id": 560,
       "height": 11,
       "weight": 300,
@@ -5040,7 +5040,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "561": {
-      "identifier": "sigilyph",
+      "name": "sigilyph",
       "species_id": 561,
       "height": 14,
       "weight": 140,
@@ -5049,7 +5049,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "562": {
-      "identifier": "yamask",
+      "name": "yamask",
       "species_id": 562,
       "height": 5,
       "weight": 15,
@@ -5058,7 +5058,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "563": {
-      "identifier": "cofagrigus",
+      "name": "cofagrigus",
       "species_id": 563,
       "height": 17,
       "weight": 765,
@@ -5067,7 +5067,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "564": {
-      "identifier": "tirtouga",
+      "name": "tirtouga",
       "species_id": 564,
       "height": 7,
       "weight": 165,
@@ -5076,7 +5076,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "565": {
-      "identifier": "carracosta",
+      "name": "carracosta",
       "species_id": 565,
       "height": 12,
       "weight": 810,
@@ -5085,7 +5085,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "566": {
-      "identifier": "archen",
+      "name": "archen",
       "species_id": 566,
       "height": 5,
       "weight": 95,
@@ -5094,7 +5094,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "567": {
-      "identifier": "archeops",
+      "name": "archeops",
       "species_id": 567,
       "height": 14,
       "weight": 320,
@@ -5103,7 +5103,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "568": {
-      "identifier": "trubbish",
+      "name": "trubbish",
       "species_id": 568,
       "height": 6,
       "weight": 310,
@@ -5112,7 +5112,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "569": {
-      "identifier": "garbodor",
+      "name": "garbodor",
       "species_id": 569,
       "height": 19,
       "weight": 1073,
@@ -5121,7 +5121,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "570": {
-      "identifier": "zorua",
+      "name": "zorua",
       "species_id": 570,
       "height": 7,
       "weight": 125,
@@ -5130,7 +5130,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "571": {
-      "identifier": "zoroark",
+      "name": "zoroark",
       "species_id": 571,
       "height": 16,
       "weight": 811,
@@ -5139,7 +5139,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "572": {
-      "identifier": "minccino",
+      "name": "minccino",
       "species_id": 572,
       "height": 4,
       "weight": 58,
@@ -5148,7 +5148,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "573": {
-      "identifier": "cinccino",
+      "name": "cinccino",
       "species_id": 573,
       "height": 5,
       "weight": 75,
@@ -5157,7 +5157,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "574": {
-      "identifier": "gothita",
+      "name": "gothita",
       "species_id": 574,
       "height": 4,
       "weight": 58,
@@ -5166,7 +5166,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "575": {
-      "identifier": "gothorita",
+      "name": "gothorita",
       "species_id": 575,
       "height": 7,
       "weight": 180,
@@ -5175,7 +5175,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "576": {
-      "identifier": "gothitelle",
+      "name": "gothitelle",
       "species_id": 576,
       "height": 15,
       "weight": 440,
@@ -5184,7 +5184,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "577": {
-      "identifier": "solosis",
+      "name": "solosis",
       "species_id": 577,
       "height": 3,
       "weight": 10,
@@ -5193,7 +5193,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "578": {
-      "identifier": "duosion",
+      "name": "duosion",
       "species_id": 578,
       "height": 6,
       "weight": 80,
@@ -5202,7 +5202,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "579": {
-      "identifier": "reuniclus",
+      "name": "reuniclus",
       "species_id": 579,
       "height": 10,
       "weight": 201,
@@ -5211,7 +5211,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "580": {
-      "identifier": "ducklett",
+      "name": "ducklett",
       "species_id": 580,
       "height": 5,
       "weight": 55,
@@ -5220,7 +5220,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "581": {
-      "identifier": "swanna",
+      "name": "swanna",
       "species_id": 581,
       "height": 13,
       "weight": 242,
@@ -5229,7 +5229,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "582": {
-      "identifier": "vanillite",
+      "name": "vanillite",
       "species_id": 582,
       "height": 4,
       "weight": 57,
@@ -5238,7 +5238,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "583": {
-      "identifier": "vanillish",
+      "name": "vanillish",
       "species_id": 583,
       "height": 11,
       "weight": 410,
@@ -5247,7 +5247,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "584": {
-      "identifier": "vanilluxe",
+      "name": "vanilluxe",
       "species_id": 584,
       "height": 13,
       "weight": 575,
@@ -5256,7 +5256,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "585": {
-      "identifier": "deerling",
+      "name": "deerling",
       "species_id": 585,
       "height": 6,
       "weight": 195,
@@ -5265,7 +5265,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "586": {
-      "identifier": "sawsbuck",
+      "name": "sawsbuck",
       "species_id": 586,
       "height": 19,
       "weight": 925,
@@ -5274,7 +5274,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "587": {
-      "identifier": "emolga",
+      "name": "emolga",
       "species_id": 587,
       "height": 4,
       "weight": 50,
@@ -5283,7 +5283,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "588": {
-      "identifier": "karrablast",
+      "name": "karrablast",
       "species_id": 588,
       "height": 5,
       "weight": 59,
@@ -5292,7 +5292,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "589": {
-      "identifier": "escavalier",
+      "name": "escavalier",
       "species_id": 589,
       "height": 10,
       "weight": 330,
@@ -5301,7 +5301,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "590": {
-      "identifier": "foongus",
+      "name": "foongus",
       "species_id": 590,
       "height": 2,
       "weight": 10,
@@ -5310,7 +5310,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "591": {
-      "identifier": "amoonguss",
+      "name": "amoonguss",
       "species_id": 591,
       "height": 6,
       "weight": 105,
@@ -5319,7 +5319,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "592": {
-      "identifier": "frillish",
+      "name": "frillish",
       "species_id": 592,
       "height": 12,
       "weight": 330,
@@ -5328,7 +5328,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "593": {
-      "identifier": "jellicent",
+      "name": "jellicent",
       "species_id": 593,
       "height": 22,
       "weight": 1350,
@@ -5337,7 +5337,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "594": {
-      "identifier": "alomomola",
+      "name": "alomomola",
       "species_id": 594,
       "height": 12,
       "weight": 316,
@@ -5346,7 +5346,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "595": {
-      "identifier": "joltik",
+      "name": "joltik",
       "species_id": 595,
       "height": 1,
       "weight": 6,
@@ -5355,7 +5355,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "596": {
-      "identifier": "galvantula",
+      "name": "galvantula",
       "species_id": 596,
       "height": 8,
       "weight": 143,
@@ -5364,7 +5364,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "597": {
-      "identifier": "ferroseed",
+      "name": "ferroseed",
       "species_id": 597,
       "height": 6,
       "weight": 188,
@@ -5373,7 +5373,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "598": {
-      "identifier": "ferrothorn",
+      "name": "ferrothorn",
       "species_id": 598,
       "height": 10,
       "weight": 1100,
@@ -5382,7 +5382,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "599": {
-      "identifier": "klink",
+      "name": "klink",
       "species_id": 599,
       "height": 3,
       "weight": 210,
@@ -5391,7 +5391,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "600": {
-      "identifier": "klang",
+      "name": "klang",
       "species_id": 600,
       "height": 6,
       "weight": 510,
@@ -5400,7 +5400,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "601": {
-      "identifier": "klinklang",
+      "name": "klinklang",
       "species_id": 601,
       "height": 6,
       "weight": 810,
@@ -5409,7 +5409,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "602": {
-      "identifier": "tynamo",
+      "name": "tynamo",
       "species_id": 602,
       "height": 2,
       "weight": 3,
@@ -5418,7 +5418,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "603": {
-      "identifier": "eelektrik",
+      "name": "eelektrik",
       "species_id": 603,
       "height": 12,
       "weight": 220,
@@ -5427,7 +5427,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "604": {
-      "identifier": "eelektross",
+      "name": "eelektross",
       "species_id": 604,
       "height": 21,
       "weight": 805,
@@ -5436,7 +5436,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "605": {
-      "identifier": "elgyem",
+      "name": "elgyem",
       "species_id": 605,
       "height": 5,
       "weight": 90,
@@ -5445,7 +5445,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "606": {
-      "identifier": "beheeyem",
+      "name": "beheeyem",
       "species_id": 606,
       "height": 10,
       "weight": 345,
@@ -5454,7 +5454,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "607": {
-      "identifier": "litwick",
+      "name": "litwick",
       "species_id": 607,
       "height": 3,
       "weight": 31,
@@ -5463,7 +5463,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "608": {
-      "identifier": "lampent",
+      "name": "lampent",
       "species_id": 608,
       "height": 6,
       "weight": 130,
@@ -5472,7 +5472,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "609": {
-      "identifier": "chandelure",
+      "name": "chandelure",
       "species_id": 609,
       "height": 10,
       "weight": 343,
@@ -5481,7 +5481,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "610": {
-      "identifier": "axew",
+      "name": "axew",
       "species_id": 610,
       "height": 6,
       "weight": 180,
@@ -5490,7 +5490,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "611": {
-      "identifier": "fraxure",
+      "name": "fraxure",
       "species_id": 611,
       "height": 10,
       "weight": 360,
@@ -5499,7 +5499,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "612": {
-      "identifier": "haxorus",
+      "name": "haxorus",
       "species_id": 612,
       "height": 18,
       "weight": 1055,
@@ -5508,7 +5508,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "613": {
-      "identifier": "cubchoo",
+      "name": "cubchoo",
       "species_id": 613,
       "height": 5,
       "weight": 85,
@@ -5517,7 +5517,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "614": {
-      "identifier": "beartic",
+      "name": "beartic",
       "species_id": 614,
       "height": 26,
       "weight": 2600,
@@ -5526,7 +5526,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "615": {
-      "identifier": "cryogonal",
+      "name": "cryogonal",
       "species_id": 615,
       "height": 11,
       "weight": 1480,
@@ -5535,7 +5535,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "616": {
-      "identifier": "shelmet",
+      "name": "shelmet",
       "species_id": 616,
       "height": 4,
       "weight": 77,
@@ -5544,7 +5544,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "617": {
-      "identifier": "accelgor",
+      "name": "accelgor",
       "species_id": 617,
       "height": 8,
       "weight": 253,
@@ -5553,7 +5553,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "618": {
-      "identifier": "stunfisk",
+      "name": "stunfisk",
       "species_id": 618,
       "height": 7,
       "weight": 110,
@@ -5562,7 +5562,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "619": {
-      "identifier": "mienfoo",
+      "name": "mienfoo",
       "species_id": 619,
       "height": 9,
       "weight": 200,
@@ -5571,7 +5571,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "620": {
-      "identifier": "mienshao",
+      "name": "mienshao",
       "species_id": 620,
       "height": 14,
       "weight": 355,
@@ -5580,7 +5580,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "621": {
-      "identifier": "druddigon",
+      "name": "druddigon",
       "species_id": 621,
       "height": 16,
       "weight": 1390,
@@ -5589,7 +5589,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "622": {
-      "identifier": "golett",
+      "name": "golett",
       "species_id": 622,
       "height": 10,
       "weight": 920,
@@ -5598,7 +5598,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "623": {
-      "identifier": "golurk",
+      "name": "golurk",
       "species_id": 623,
       "height": 28,
       "weight": 3300,
@@ -5607,7 +5607,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "624": {
-      "identifier": "pawniard",
+      "name": "pawniard",
       "species_id": 624,
       "height": 5,
       "weight": 102,
@@ -5616,7 +5616,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "625": {
-      "identifier": "bisharp",
+      "name": "bisharp",
       "species_id": 625,
       "height": 16,
       "weight": 700,
@@ -5625,7 +5625,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "626": {
-      "identifier": "bouffalant",
+      "name": "bouffalant",
       "species_id": 626,
       "height": 16,
       "weight": 946,
@@ -5634,7 +5634,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "627": {
-      "identifier": "rufflet",
+      "name": "rufflet",
       "species_id": 627,
       "height": 5,
       "weight": 105,
@@ -5643,7 +5643,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "628": {
-      "identifier": "braviary",
+      "name": "braviary",
       "species_id": 628,
       "height": 15,
       "weight": 410,
@@ -5652,7 +5652,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "629": {
-      "identifier": "vullaby",
+      "name": "vullaby",
       "species_id": 629,
       "height": 5,
       "weight": 90,
@@ -5661,7 +5661,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "630": {
-      "identifier": "mandibuzz",
+      "name": "mandibuzz",
       "species_id": 630,
       "height": 12,
       "weight": 395,
@@ -5670,7 +5670,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "631": {
-      "identifier": "heatmor",
+      "name": "heatmor",
       "species_id": 631,
       "height": 14,
       "weight": 580,
@@ -5679,7 +5679,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "632": {
-      "identifier": "durant",
+      "name": "durant",
       "species_id": 632,
       "height": 3,
       "weight": 330,
@@ -5688,7 +5688,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "633": {
-      "identifier": "deino",
+      "name": "deino",
       "species_id": 633,
       "height": 8,
       "weight": 173,
@@ -5697,7 +5697,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "634": {
-      "identifier": "zweilous",
+      "name": "zweilous",
       "species_id": 634,
       "height": 14,
       "weight": 500,
@@ -5706,7 +5706,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "635": {
-      "identifier": "hydreigon",
+      "name": "hydreigon",
       "species_id": 635,
       "height": 18,
       "weight": 1600,
@@ -5715,7 +5715,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "636": {
-      "identifier": "larvesta",
+      "name": "larvesta",
       "species_id": 636,
       "height": 11,
       "weight": 288,
@@ -5724,7 +5724,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "637": {
-      "identifier": "volcarona",
+      "name": "volcarona",
       "species_id": 637,
       "height": 16,
       "weight": 460,
@@ -5733,7 +5733,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "638": {
-      "identifier": "cobalion",
+      "name": "cobalion",
       "species_id": 638,
       "height": 21,
       "weight": 2500,
@@ -5742,7 +5742,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "639": {
-      "identifier": "terrakion",
+      "name": "terrakion",
       "species_id": 639,
       "height": 19,
       "weight": 2600,
@@ -5751,7 +5751,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "640": {
-      "identifier": "virizion",
+      "name": "virizion",
       "species_id": 640,
       "height": 20,
       "weight": 2000,
@@ -5760,7 +5760,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "641": {
-      "identifier": "tornadus-incarnate",
+      "name": "tornadus-incarnate",
       "species_id": 641,
       "height": 15,
       "weight": 630,
@@ -5769,7 +5769,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "642": {
-      "identifier": "thundurus-incarnate",
+      "name": "thundurus-incarnate",
       "species_id": 642,
       "height": 15,
       "weight": 610,
@@ -5778,7 +5778,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "643": {
-      "identifier": "reshiram",
+      "name": "reshiram",
       "species_id": 643,
       "height": 32,
       "weight": 3300,
@@ -5787,7 +5787,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "644": {
-      "identifier": "zekrom",
+      "name": "zekrom",
       "species_id": 644,
       "height": 29,
       "weight": 3450,
@@ -5796,7 +5796,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "645": {
-      "identifier": "landorus-incarnate",
+      "name": "landorus-incarnate",
       "species_id": 645,
       "height": 15,
       "weight": 680,
@@ -5805,7 +5805,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "646": {
-      "identifier": "kyurem",
+      "name": "kyurem",
       "species_id": 646,
       "height": 30,
       "weight": 3250,
@@ -5814,7 +5814,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "647": {
-      "identifier": "keldeo-ordinary",
+      "name": "keldeo-ordinary",
       "species_id": 647,
       "height": 14,
       "weight": 485,
@@ -5823,7 +5823,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "648": {
-      "identifier": "meloetta-aria",
+      "name": "meloetta-aria",
       "species_id": 648,
       "height": 6,
       "weight": 65,
@@ -5832,7 +5832,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "649": {
-      "identifier": "genesect",
+      "name": "genesect",
       "species_id": 649,
       "height": 15,
       "weight": 825,
@@ -5841,7 +5841,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "650": {
-      "identifier": "chespin",
+      "name": "chespin",
       "species_id": 650,
       "height": 4,
       "weight": 90,
@@ -5850,7 +5850,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "651": {
-      "identifier": "quilladin",
+      "name": "quilladin",
       "species_id": 651,
       "height": 7,
       "weight": 290,
@@ -5859,7 +5859,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "652": {
-      "identifier": "chesnaught",
+      "name": "chesnaught",
       "species_id": 652,
       "height": 16,
       "weight": 900,
@@ -5868,7 +5868,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "653": {
-      "identifier": "fennekin",
+      "name": "fennekin",
       "species_id": 653,
       "height": 4,
       "weight": 94,
@@ -5877,7 +5877,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "654": {
-      "identifier": "braixen",
+      "name": "braixen",
       "species_id": 654,
       "height": 10,
       "weight": 145,
@@ -5886,7 +5886,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "655": {
-      "identifier": "delphox",
+      "name": "delphox",
       "species_id": 655,
       "height": 15,
       "weight": 390,
@@ -5895,7 +5895,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "656": {
-      "identifier": "froakie",
+      "name": "froakie",
       "species_id": 656,
       "height": 3,
       "weight": 70,
@@ -5904,7 +5904,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "657": {
-      "identifier": "frogadier",
+      "name": "frogadier",
       "species_id": 657,
       "height": 6,
       "weight": 109,
@@ -5913,7 +5913,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "658": {
-      "identifier": "greninja",
+      "name": "greninja",
       "species_id": 658,
       "height": 15,
       "weight": 400,
@@ -5922,7 +5922,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "659": {
-      "identifier": "bunnelby",
+      "name": "bunnelby",
       "species_id": 659,
       "height": 4,
       "weight": 50,
@@ -5931,7 +5931,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "660": {
-      "identifier": "diggersby",
+      "name": "diggersby",
       "species_id": 660,
       "height": 10,
       "weight": 424,
@@ -5940,7 +5940,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "661": {
-      "identifier": "fletchling",
+      "name": "fletchling",
       "species_id": 661,
       "height": 3,
       "weight": 17,
@@ -5949,7 +5949,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "662": {
-      "identifier": "fletchinder",
+      "name": "fletchinder",
       "species_id": 662,
       "height": 7,
       "weight": 160,
@@ -5958,7 +5958,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "663": {
-      "identifier": "talonflame",
+      "name": "talonflame",
       "species_id": 663,
       "height": 12,
       "weight": 245,
@@ -5967,7 +5967,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "664": {
-      "identifier": "scatterbug",
+      "name": "scatterbug",
       "species_id": 664,
       "height": 3,
       "weight": 25,
@@ -5976,7 +5976,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "665": {
-      "identifier": "spewpa",
+      "name": "spewpa",
       "species_id": 665,
       "height": 3,
       "weight": 84,
@@ -5985,7 +5985,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "666": {
-      "identifier": "vivillon",
+      "name": "vivillon",
       "species_id": 666,
       "height": 12,
       "weight": 170,
@@ -5994,7 +5994,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "667": {
-      "identifier": "litleo",
+      "name": "litleo",
       "species_id": 667,
       "height": 6,
       "weight": 135,
@@ -6003,7 +6003,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "668": {
-      "identifier": "pyroar",
+      "name": "pyroar",
       "species_id": 668,
       "height": 15,
       "weight": 815,
@@ -6012,7 +6012,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "669": {
-      "identifier": "flabebe",
+      "name": "flabebe",
       "species_id": 669,
       "height": 1,
       "weight": 1,
@@ -6021,7 +6021,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "670": {
-      "identifier": "floette",
+      "name": "floette",
       "species_id": 670,
       "height": 2,
       "weight": 9,
@@ -6030,7 +6030,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "671": {
-      "identifier": "florges",
+      "name": "florges",
       "species_id": 671,
       "height": 11,
       "weight": 100,
@@ -6039,7 +6039,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "672": {
-      "identifier": "skiddo",
+      "name": "skiddo",
       "species_id": 672,
       "height": 9,
       "weight": 310,
@@ -6048,7 +6048,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "673": {
-      "identifier": "gogoat",
+      "name": "gogoat",
       "species_id": 673,
       "height": 17,
       "weight": 910,
@@ -6057,7 +6057,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "674": {
-      "identifier": "pancham",
+      "name": "pancham",
       "species_id": 674,
       "height": 6,
       "weight": 80,
@@ -6066,7 +6066,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "675": {
-      "identifier": "pangoro",
+      "name": "pangoro",
       "species_id": 675,
       "height": 21,
       "weight": 1360,
@@ -6075,7 +6075,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "676": {
-      "identifier": "furfrou",
+      "name": "furfrou",
       "species_id": 676,
       "height": 12,
       "weight": 280,
@@ -6084,7 +6084,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "677": {
-      "identifier": "espurr",
+      "name": "espurr",
       "species_id": 677,
       "height": 3,
       "weight": 35,
@@ -6093,7 +6093,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "678": {
-      "identifier": "meowstic-male",
+      "name": "meowstic-male",
       "species_id": 678,
       "height": 6,
       "weight": 85,
@@ -6102,7 +6102,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "679": {
-      "identifier": "honedge",
+      "name": "honedge",
       "species_id": 679,
       "height": 8,
       "weight": 20,
@@ -6111,7 +6111,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "680": {
-      "identifier": "doublade",
+      "name": "doublade",
       "species_id": 680,
       "height": 8,
       "weight": 45,
@@ -6120,7 +6120,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "681": {
-      "identifier": "aegislash-shield",
+      "name": "aegislash-shield",
       "species_id": 681,
       "height": 17,
       "weight": 530,
@@ -6129,7 +6129,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "682": {
-      "identifier": "spritzee",
+      "name": "spritzee",
       "species_id": 682,
       "height": 2,
       "weight": 5,
@@ -6138,7 +6138,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "683": {
-      "identifier": "aromatisse",
+      "name": "aromatisse",
       "species_id": 683,
       "height": 8,
       "weight": 155,
@@ -6147,7 +6147,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "684": {
-      "identifier": "swirlix",
+      "name": "swirlix",
       "species_id": 684,
       "height": 4,
       "weight": 35,
@@ -6156,7 +6156,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "685": {
-      "identifier": "slurpuff",
+      "name": "slurpuff",
       "species_id": 685,
       "height": 8,
       "weight": 50,
@@ -6165,7 +6165,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "686": {
-      "identifier": "inkay",
+      "name": "inkay",
       "species_id": 686,
       "height": 4,
       "weight": 35,
@@ -6174,7 +6174,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "687": {
-      "identifier": "malamar",
+      "name": "malamar",
       "species_id": 687,
       "height": 15,
       "weight": 470,
@@ -6183,7 +6183,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "688": {
-      "identifier": "binacle",
+      "name": "binacle",
       "species_id": 688,
       "height": 5,
       "weight": 310,
@@ -6192,7 +6192,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "689": {
-      "identifier": "barbaracle",
+      "name": "barbaracle",
       "species_id": 689,
       "height": 13,
       "weight": 960,
@@ -6201,7 +6201,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "690": {
-      "identifier": "skrelp",
+      "name": "skrelp",
       "species_id": 690,
       "height": 5,
       "weight": 73,
@@ -6210,7 +6210,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "691": {
-      "identifier": "dragalge",
+      "name": "dragalge",
       "species_id": 691,
       "height": 18,
       "weight": 815,
@@ -6219,7 +6219,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "692": {
-      "identifier": "clauncher",
+      "name": "clauncher",
       "species_id": 692,
       "height": 5,
       "weight": 83,
@@ -6228,7 +6228,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "693": {
-      "identifier": "clawitzer",
+      "name": "clawitzer",
       "species_id": 693,
       "height": 13,
       "weight": 353,
@@ -6237,7 +6237,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "694": {
-      "identifier": "helioptile",
+      "name": "helioptile",
       "species_id": 694,
       "height": 5,
       "weight": 60,
@@ -6246,7 +6246,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "695": {
-      "identifier": "heliolisk",
+      "name": "heliolisk",
       "species_id": 695,
       "height": 10,
       "weight": 210,
@@ -6255,7 +6255,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "696": {
-      "identifier": "tyrunt",
+      "name": "tyrunt",
       "species_id": 696,
       "height": 8,
       "weight": 260,
@@ -6264,7 +6264,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "697": {
-      "identifier": "tyrantrum",
+      "name": "tyrantrum",
       "species_id": 697,
       "height": 25,
       "weight": 2700,
@@ -6273,7 +6273,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "698": {
-      "identifier": "amaura",
+      "name": "amaura",
       "species_id": 698,
       "height": 13,
       "weight": 252,
@@ -6282,7 +6282,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "699": {
-      "identifier": "aurorus",
+      "name": "aurorus",
       "species_id": 699,
       "height": 27,
       "weight": 2250,
@@ -6291,7 +6291,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "700": {
-      "identifier": "sylveon",
+      "name": "sylveon",
       "species_id": 700,
       "height": 10,
       "weight": 235,
@@ -6300,7 +6300,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "701": {
-      "identifier": "hawlucha",
+      "name": "hawlucha",
       "species_id": 701,
       "height": 8,
       "weight": 215,
@@ -6309,7 +6309,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "702": {
-      "identifier": "dedenne",
+      "name": "dedenne",
       "species_id": 702,
       "height": 2,
       "weight": 22,
@@ -6318,7 +6318,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "703": {
-      "identifier": "carbink",
+      "name": "carbink",
       "species_id": 703,
       "height": 3,
       "weight": 57,
@@ -6327,7 +6327,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "704": {
-      "identifier": "goomy",
+      "name": "goomy",
       "species_id": 704,
       "height": 3,
       "weight": 28,
@@ -6336,7 +6336,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "705": {
-      "identifier": "sliggoo",
+      "name": "sliggoo",
       "species_id": 705,
       "height": 8,
       "weight": 175,
@@ -6345,7 +6345,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "706": {
-      "identifier": "goodra",
+      "name": "goodra",
       "species_id": 706,
       "height": 20,
       "weight": 1505,
@@ -6354,7 +6354,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "707": {
-      "identifier": "klefki",
+      "name": "klefki",
       "species_id": 707,
       "height": 2,
       "weight": 30,
@@ -6363,7 +6363,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "708": {
-      "identifier": "phantump",
+      "name": "phantump",
       "species_id": 708,
       "height": 4,
       "weight": 70,
@@ -6372,7 +6372,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "709": {
-      "identifier": "trevenant",
+      "name": "trevenant",
       "species_id": 709,
       "height": 15,
       "weight": 710,
@@ -6381,7 +6381,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "710": {
-      "identifier": "pumpkaboo-average",
+      "name": "pumpkaboo-average",
       "species_id": 710,
       "height": 4,
       "weight": 50,
@@ -6390,7 +6390,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "711": {
-      "identifier": "gourgeist-average",
+      "name": "gourgeist-average",
       "species_id": 711,
       "height": 9,
       "weight": 125,
@@ -6399,7 +6399,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "712": {
-      "identifier": "bergmite",
+      "name": "bergmite",
       "species_id": 712,
       "height": 10,
       "weight": 995,
@@ -6408,7 +6408,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "713": {
-      "identifier": "avalugg",
+      "name": "avalugg",
       "species_id": 713,
       "height": 20,
       "weight": 5050,
@@ -6417,7 +6417,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "714": {
-      "identifier": "noibat",
+      "name": "noibat",
       "species_id": 714,
       "height": 5,
       "weight": 80,
@@ -6426,7 +6426,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "715": {
-      "identifier": "noivern",
+      "name": "noivern",
       "species_id": 715,
       "height": 15,
       "weight": 850,
@@ -6435,7 +6435,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "716": {
-      "identifier": "xerneas",
+      "name": "xerneas",
       "species_id": 716,
       "height": 30,
       "weight": 2150,
@@ -6444,7 +6444,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "717": {
-      "identifier": "yveltal",
+      "name": "yveltal",
       "species_id": 717,
       "height": 58,
       "weight": 2030,
@@ -6453,7 +6453,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "718": {
-      "identifier": "zygarde",
+      "name": "zygarde",
       "species_id": 718,
       "height": 50,
       "weight": 3050,
@@ -6462,7 +6462,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "719": {
-      "identifier": "diancie",
+      "name": "diancie",
       "species_id": 719,
       "height": 7,
       "weight": 88,
@@ -6471,7 +6471,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "720": {
-      "identifier": "hoopa",
+      "name": "hoopa",
       "species_id": 720,
       "height": 5,
       "weight": 90,
@@ -6480,7 +6480,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "721": {
-      "identifier": "volcanion",
+      "name": "volcanion",
       "species_id": 721,
       "height": 17,
       "weight": 1950,
@@ -6489,7 +6489,7 @@ const POKEMONS = {
       "is_default": 1
    },
    "10001": {
-      "identifier": "deoxys-attack",
+      "name": "deoxys-attack",
       "species_id": 386,
       "height": 17,
       "weight": 608,
@@ -6498,7 +6498,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10002": {
-      "identifier": "deoxys-defense",
+      "name": "deoxys-defense",
       "species_id": 386,
       "height": 17,
       "weight": 608,
@@ -6507,7 +6507,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10003": {
-      "identifier": "deoxys-speed",
+      "name": "deoxys-speed",
       "species_id": 386,
       "height": 17,
       "weight": 608,
@@ -6516,7 +6516,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10004": {
-      "identifier": "wormadam-sandy",
+      "name": "wormadam-sandy",
       "species_id": 413,
       "height": 5,
       "weight": 65,
@@ -6525,7 +6525,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10005": {
-      "identifier": "wormadam-trash",
+      "name": "wormadam-trash",
       "species_id": 413,
       "height": 5,
       "weight": 65,
@@ -6534,7 +6534,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10006": {
-      "identifier": "shaymin-sky",
+      "name": "shaymin-sky",
       "species_id": 492,
       "height": 4,
       "weight": 52,
@@ -6543,7 +6543,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10007": {
-      "identifier": "giratina-origin",
+      "name": "giratina-origin",
       "species_id": 487,
       "height": 69,
       "weight": 6500,
@@ -6552,7 +6552,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10008": {
-      "identifier": "rotom-heat",
+      "name": "rotom-heat",
       "species_id": 479,
       "height": 3,
       "weight": 3,
@@ -6561,7 +6561,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10009": {
-      "identifier": "rotom-wash",
+      "name": "rotom-wash",
       "species_id": 479,
       "height": 3,
       "weight": 3,
@@ -6570,7 +6570,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10010": {
-      "identifier": "rotom-frost",
+      "name": "rotom-frost",
       "species_id": 479,
       "height": 3,
       "weight": 3,
@@ -6579,7 +6579,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10011": {
-      "identifier": "rotom-fan",
+      "name": "rotom-fan",
       "species_id": 479,
       "height": 3,
       "weight": 3,
@@ -6588,7 +6588,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10012": {
-      "identifier": "rotom-mow",
+      "name": "rotom-mow",
       "species_id": 479,
       "height": 3,
       "weight": 3,
@@ -6597,7 +6597,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10013": {
-      "identifier": "castform-sunny",
+      "name": "castform-sunny",
       "species_id": 351,
       "height": 3,
       "weight": 8,
@@ -6606,7 +6606,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10014": {
-      "identifier": "castform-rainy",
+      "name": "castform-rainy",
       "species_id": 351,
       "height": 3,
       "weight": 8,
@@ -6615,7 +6615,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10015": {
-      "identifier": "castform-snowy",
+      "name": "castform-snowy",
       "species_id": 351,
       "height": 3,
       "weight": 8,
@@ -6624,7 +6624,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10016": {
-      "identifier": "basculin-blue-striped",
+      "name": "basculin-blue-striped",
       "species_id": 550,
       "height": 10,
       "weight": 180,
@@ -6633,7 +6633,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10017": {
-      "identifier": "darmanitan-zen",
+      "name": "darmanitan-zen",
       "species_id": 555,
       "height": 13,
       "weight": 929,
@@ -6642,7 +6642,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10018": {
-      "identifier": "meloetta-pirouette",
+      "name": "meloetta-pirouette",
       "species_id": 648,
       "height": 6,
       "weight": 65,
@@ -6651,7 +6651,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10019": {
-      "identifier": "tornadus-therian",
+      "name": "tornadus-therian",
       "species_id": 641,
       "height": 14,
       "weight": 630,
@@ -6660,7 +6660,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10020": {
-      "identifier": "thundurus-therian",
+      "name": "thundurus-therian",
       "species_id": 642,
       "height": 30,
       "weight": 610,
@@ -6669,7 +6669,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10021": {
-      "identifier": "landorus-therian",
+      "name": "landorus-therian",
       "species_id": 645,
       "height": 13,
       "weight": 680,
@@ -6678,7 +6678,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10022": {
-      "identifier": "kyurem-black",
+      "name": "kyurem-black",
       "species_id": 646,
       "height": 33,
       "weight": 3250,
@@ -6687,7 +6687,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10023": {
-      "identifier": "kyurem-white",
+      "name": "kyurem-white",
       "species_id": 646,
       "height": 36,
       "weight": 3250,
@@ -6696,7 +6696,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10024": {
-      "identifier": "keldeo-resolute",
+      "name": "keldeo-resolute",
       "species_id": 647,
       "height": 14,
       "weight": 485,
@@ -6705,7 +6705,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10025": {
-      "identifier": "meowstic-female",
+      "name": "meowstic-female",
       "species_id": 678,
       "height": 6,
       "weight": 85,
@@ -6714,7 +6714,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10026": {
-      "identifier": "aegislash-blade",
+      "name": "aegislash-blade",
       "species_id": 681,
       "height": 17,
       "weight": 530,
@@ -6723,7 +6723,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10027": {
-      "identifier": "pumpkaboo-small",
+      "name": "pumpkaboo-small",
       "species_id": 710,
       "height": 3,
       "weight": 35,
@@ -6732,7 +6732,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10028": {
-      "identifier": "pumpkaboo-large",
+      "name": "pumpkaboo-large",
       "species_id": 710,
       "height": 5,
       "weight": 75,
@@ -6741,7 +6741,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10029": {
-      "identifier": "pumpkaboo-super",
+      "name": "pumpkaboo-super",
       "species_id": 710,
       "height": 8,
       "weight": 150,
@@ -6750,7 +6750,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10030": {
-      "identifier": "gourgeist-small",
+      "name": "gourgeist-small",
       "species_id": 711,
       "height": 7,
       "weight": 95,
@@ -6759,7 +6759,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10031": {
-      "identifier": "gourgeist-large",
+      "name": "gourgeist-large",
       "species_id": 711,
       "height": 11,
       "weight": 140,
@@ -6768,7 +6768,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10032": {
-      "identifier": "gourgeist-super",
+      "name": "gourgeist-super",
       "species_id": 711,
       "height": 17,
       "weight": 390,
@@ -6777,7 +6777,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10033": {
-      "identifier": "venusaur-mega",
+      "name": "venusaur-mega",
       "species_id": 3,
       "height": 24,
       "weight": 1555,
@@ -6786,7 +6786,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10034": {
-      "identifier": "charizard-mega-x",
+      "name": "charizard-mega-x",
       "species_id": 6,
       "height": 17,
       "weight": 1105,
@@ -6795,7 +6795,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10035": {
-      "identifier": "charizard-mega-y",
+      "name": "charizard-mega-y",
       "species_id": 6,
       "height": 17,
       "weight": 1005,
@@ -6804,7 +6804,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10036": {
-      "identifier": "blastoise-mega",
+      "name": "blastoise-mega",
       "species_id": 9,
       "height": 16,
       "weight": 1011,
@@ -6813,7 +6813,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10037": {
-      "identifier": "alakazam-mega",
+      "name": "alakazam-mega",
       "species_id": 65,
       "height": 12,
       "weight": 480,
@@ -6822,7 +6822,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10038": {
-      "identifier": "gengar-mega",
+      "name": "gengar-mega",
       "species_id": 94,
       "height": 14,
       "weight": 405,
@@ -6831,7 +6831,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10039": {
-      "identifier": "kangaskhan-mega",
+      "name": "kangaskhan-mega",
       "species_id": 115,
       "height": 22,
       "weight": 1000,
@@ -6840,7 +6840,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10040": {
-      "identifier": "pinsir-mega",
+      "name": "pinsir-mega",
       "species_id": 127,
       "height": 17,
       "weight": 590,
@@ -6849,7 +6849,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10041": {
-      "identifier": "gyarados-mega",
+      "name": "gyarados-mega",
       "species_id": 130,
       "height": 65,
       "weight": 3050,
@@ -6858,7 +6858,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10042": {
-      "identifier": "aerodactyl-mega",
+      "name": "aerodactyl-mega",
       "species_id": 142,
       "height": 21,
       "weight": 790,
@@ -6867,7 +6867,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10043": {
-      "identifier": "mewtwo-mega-x",
+      "name": "mewtwo-mega-x",
       "species_id": 150,
       "height": 23,
       "weight": 1270,
@@ -6876,7 +6876,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10044": {
-      "identifier": "mewtwo-mega-y",
+      "name": "mewtwo-mega-y",
       "species_id": 150,
       "height": 15,
       "weight": 330,
@@ -6885,7 +6885,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10045": {
-      "identifier": "ampharos-mega",
+      "name": "ampharos-mega",
       "species_id": 181,
       "height": 14,
       "weight": 615,
@@ -6894,7 +6894,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10046": {
-      "identifier": "scizor-mega",
+      "name": "scizor-mega",
       "species_id": 212,
       "height": 20,
       "weight": 1250,
@@ -6903,7 +6903,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10047": {
-      "identifier": "heracross-mega",
+      "name": "heracross-mega",
       "species_id": 214,
       "height": 17,
       "weight": 625,
@@ -6912,7 +6912,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10048": {
-      "identifier": "houndoom-mega",
+      "name": "houndoom-mega",
       "species_id": 229,
       "height": 19,
       "weight": 495,
@@ -6921,7 +6921,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10049": {
-      "identifier": "tyranitar-mega",
+      "name": "tyranitar-mega",
       "species_id": 248,
       "height": 25,
       "weight": 2550,
@@ -6930,7 +6930,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10050": {
-      "identifier": "blaziken-mega",
+      "name": "blaziken-mega",
       "species_id": 257,
       "height": 19,
       "weight": 520,
@@ -6939,7 +6939,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10051": {
-      "identifier": "gardevoir-mega",
+      "name": "gardevoir-mega",
       "species_id": 282,
       "height": 16,
       "weight": 484,
@@ -6948,7 +6948,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10052": {
-      "identifier": "mawile-mega",
+      "name": "mawile-mega",
       "species_id": 303,
       "height": 10,
       "weight": 235,
@@ -6957,7 +6957,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10053": {
-      "identifier": "aggron-mega",
+      "name": "aggron-mega",
       "species_id": 306,
       "height": 22,
       "weight": 3950,
@@ -6966,7 +6966,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10054": {
-      "identifier": "medicham-mega",
+      "name": "medicham-mega",
       "species_id": 308,
       "height": 13,
       "weight": 315,
@@ -6975,7 +6975,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10055": {
-      "identifier": "manectric-mega",
+      "name": "manectric-mega",
       "species_id": 310,
       "height": 18,
       "weight": 440,
@@ -6984,7 +6984,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10056": {
-      "identifier": "banette-mega",
+      "name": "banette-mega",
       "species_id": 354,
       "height": 12,
       "weight": 130,
@@ -6993,7 +6993,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10057": {
-      "identifier": "absol-mega",
+      "name": "absol-mega",
       "species_id": 359,
       "height": 12,
       "weight": 490,
@@ -7002,7 +7002,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10058": {
-      "identifier": "garchomp-mega",
+      "name": "garchomp-mega",
       "species_id": 445,
       "height": 19,
       "weight": 950,
@@ -7011,7 +7011,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10059": {
-      "identifier": "lucario-mega",
+      "name": "lucario-mega",
       "species_id": 448,
       "height": 13,
       "weight": 575,
@@ -7020,7 +7020,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10060": {
-      "identifier": "abomasnow-mega",
+      "name": "abomasnow-mega",
       "species_id": 460,
       "height": 27,
       "weight": 1850,
@@ -7029,7 +7029,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10061": {
-      "identifier": "floette-eternal",
+      "name": "floette-eternal",
       "species_id": 670,
       "height": 2,
       "weight": 9,
@@ -7038,7 +7038,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10062": {
-      "identifier": "latias-mega",
+      "name": "latias-mega",
       "species_id": 380,
       "height": 18,
       "weight": 520,
@@ -7047,7 +7047,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10063": {
-      "identifier": "latios-mega",
+      "name": "latios-mega",
       "species_id": 381,
       "height": 23,
       "weight": 700,
@@ -7056,7 +7056,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10064": {
-      "identifier": "swampert-mega",
+      "name": "swampert-mega",
       "species_id": 260,
       "height": 19,
       "weight": 1020,
@@ -7065,7 +7065,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10065": {
-      "identifier": "sceptile-mega",
+      "name": "sceptile-mega",
       "species_id": 254,
       "height": 19,
       "weight": 552,
@@ -7074,7 +7074,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10066": {
-      "identifier": "sableye-mega",
+      "name": "sableye-mega",
       "species_id": 302,
       "height": 5,
       "weight": 1610,
@@ -7083,7 +7083,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10067": {
-      "identifier": "altaria-mega",
+      "name": "altaria-mega",
       "species_id": 334,
       "height": 15,
       "weight": 206,
@@ -7092,7 +7092,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10068": {
-      "identifier": "gallade-mega",
+      "name": "gallade-mega",
       "species_id": 475,
       "height": 16,
       "weight": 564,
@@ -7101,7 +7101,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10069": {
-      "identifier": "audino-mega",
+      "name": "audino-mega",
       "species_id": 531,
       "height": 15,
       "weight": 320,
@@ -7110,7 +7110,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10070": {
-      "identifier": "sharpedo-mega",
+      "name": "sharpedo-mega",
       "species_id": 319,
       "height": 25,
       "weight": 1303,
@@ -7119,7 +7119,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10071": {
-      "identifier": "slowbro-mega",
+      "name": "slowbro-mega",
       "species_id": 80,
       "height": 20,
       "weight": 1200,
@@ -7128,7 +7128,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10072": {
-      "identifier": "steelix-mega",
+      "name": "steelix-mega",
       "species_id": 208,
       "height": 105,
       "weight": 7400,
@@ -7137,7 +7137,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10073": {
-      "identifier": "pidgeot-mega",
+      "name": "pidgeot-mega",
       "species_id": 18,
       "height": 22,
       "weight": 505,
@@ -7146,7 +7146,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10074": {
-      "identifier": "glalie-mega",
+      "name": "glalie-mega",
       "species_id": 362,
       "height": 21,
       "weight": 3502,
@@ -7155,7 +7155,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10075": {
-      "identifier": "diancie-mega",
+      "name": "diancie-mega",
       "species_id": 719,
       "height": 11,
       "weight": 278,
@@ -7164,7 +7164,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10076": {
-      "identifier": "metagross-mega",
+      "name": "metagross-mega",
       "species_id": 376,
       "height": 25,
       "weight": 9429,
@@ -7173,7 +7173,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10077": {
-      "identifier": "kyogre-primal",
+      "name": "kyogre-primal",
       "species_id": 382,
       "height": 98,
       "weight": 4300,
@@ -7182,7 +7182,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10078": {
-      "identifier": "groudon-primal",
+      "name": "groudon-primal",
       "species_id": 383,
       "height": 50,
       "weight": 9997,
@@ -7191,7 +7191,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10079": {
-      "identifier": "rayquaza-mega",
+      "name": "rayquaza-mega",
       "species_id": 384,
       "height": 108,
       "weight": 3920,
@@ -7200,7 +7200,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10080": {
-      "identifier": "pikachu-rock-star",
+      "name": "pikachu-rock-star",
       "species_id": 25,
       "height": 40,
       "weight": 60,
@@ -7209,7 +7209,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10081": {
-      "identifier": "pikachu-belle",
+      "name": "pikachu-belle",
       "species_id": 25,
       "height": 40,
       "weight": 60,
@@ -7218,7 +7218,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10082": {
-      "identifier": "pikachu-pop-star",
+      "name": "pikachu-pop-star",
       "species_id": 25,
       "height": 40,
       "weight": 60,
@@ -7227,7 +7227,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10083": {
-      "identifier": "pikachu-phd",
+      "name": "pikachu-phd",
       "species_id": 25,
       "height": 40,
       "weight": 60,
@@ -7236,7 +7236,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10084": {
-      "identifier": "pikachu-libre",
+      "name": "pikachu-libre",
       "species_id": 25,
       "height": 40,
       "weight": 60,
@@ -7245,7 +7245,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10085": {
-      "identifier": "pikachu-cosplay",
+      "name": "pikachu-cosplay",
       "species_id": 25,
       "height": 40,
       "weight": 60,
@@ -7254,7 +7254,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10086": {
-      "identifier": "hoopa-unbound",
+      "name": "hoopa-unbound",
       "species_id": 720,
       "height": 65,
       "weight": 4900,
@@ -7263,7 +7263,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10087": {
-      "identifier": "camerupt-mega",
+      "name": "camerupt-mega",
       "species_id": 323,
       "height": 25,
       "weight": 3205,
@@ -7272,7 +7272,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10088": {
-      "identifier": "lopunny-mega",
+      "name": "lopunny-mega",
       "species_id": 428,
       "height": 13,
       "weight": 283,
@@ -7281,7 +7281,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10089": {
-      "identifier": "salamence-mega",
+      "name": "salamence-mega",
       "species_id": 373,
       "height": 18,
       "weight": 1126,
@@ -7290,7 +7290,7 @@ const POKEMONS = {
       "is_default": 0
    },
    "10090": {
-      "identifier": "beedrill-mega",
+      "name": "beedrill-mega",
       "species_id": 15,
       "height": 14,
       "weight": 405,
