@@ -48,6 +48,31 @@ const helper = (function () {
       const totalPages = Math.ceil(allPokemonsList.length/limit) || 1;
 
       target.innerText = `Page ${currentPage} of ${totalPages}`;
+    },
+    getUrlComponents: function () {
+      const fullUrl = window.location.href;
+      const indexOfPound = fullUrl.indexOf("#");
+      const urlOffset = parseInt(fullUrl.substr(indexOfPound + 1, fullUrl.length)) || 0;
+      
+      let baseUrl = fullUrl;
+
+      if(indexOfPound !== -1) {
+        baseUrl = fullUrl.substr(0, indexOfPound);
+      }
+
+      return {
+        offset: urlOffset,
+        currentFullUrl: fullUrl,
+        baseUrl: baseUrl,
+        indexOfPound: indexOfPound
+      };
+    },
+    setUrlOffset: function () {
+      const urlComponents = this.getUrlComponents();
+      const newUrl = urlComponents.baseUrl + "#" + offset;
+      window.location.href = newUrl;
     }
-  };
+  }
 })();
+
+helper.getUrlComponents();
