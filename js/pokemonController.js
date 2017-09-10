@@ -14,7 +14,7 @@ function render (list, target) {
 }
 
 
-function flip(element) {
+function flip (element) {
   let img = element.querySelector("img");
 
   if (img == null) {

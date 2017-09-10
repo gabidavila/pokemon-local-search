@@ -4,13 +4,14 @@ const nextButton = document.getElementById("next");
 const previousButton = document.getElementById("previous");
 let allPokemonsList;
 let paginatedPokemon;
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const pokemonContainer = document.getElementById("pokemon-container");
   allPokemonsList = search();
   paginatedPokemon = paginate(allPokemonsList, offset);
   const searchBar = document.getElementById("search");
 
   render(paginatedPokemon, pokemonContainer);
+  helper.updatePaginationCount();
 
   pokemonContainer.addEventListener("click", function (event) {
     if (event.target.localName) {
@@ -33,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   previous.addEventListener("click", function (event) {
-
     if(offset - limit < 0) {
       return;
     }

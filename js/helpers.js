@@ -19,7 +19,7 @@ const helper = (function () {
       }
       return newTag;
     },
-    changeButtonColors: function() {
+    changeButtonColors: function () {
       const inactive = "ui button";
       const active = "ui primary button";
 
@@ -40,6 +40,14 @@ const helper = (function () {
         previousButton.setAttribute("class", inactive);
         nextButton.setAttribute("class", inactive);
       }
+      this.updatePaginationCount();
+    },
+    updatePaginationCount: function () {
+      const target = document.getElementById("page");
+      const currentPage = Math.ceil((offset + limit)/limit);
+      const totalPages = Math.ceil(allPokemonsList.length/limit) || 1;
+
+      target.innerText = `Page ${currentPage} of ${totalPages}`;
     }
-  }
+  };
 })();

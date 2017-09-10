@@ -11,11 +11,11 @@ function scan (term) {
   return pokemonsObj;
 }
 
-function getPokemon(id) {
+function getPokemon (id) {
   return POKEMONS[id];
 }
 
-function fetchPokemons(pokemonsObj) {
+function fetchPokemons (pokemonsObj) {
   const result = [];
   for (let name in pokemonsObj) {
     const id = POKEMON_NAMES[name];
