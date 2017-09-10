@@ -19,21 +19,26 @@ const helper = (function () {
       }
       return newTag;
     },
-    changeButtonColors: function(next, previous, listLength) {
+    changeButtonColors: function() {
       const inactive = "ui button";
       const active = "ui primary button";
 
       if (offset === 0) {
-        previous.setAttribute("class", inactive);
-        next.setAttribute("class", active);
+        previousButton.setAttribute("class", inactive);
+        nextButton.setAttribute("class", active);
       } else {
-        previous.setAttribute("class", active);
+        previousButton.setAttribute("class", active);
       }
 
-      if(offset > 0 && (offset + limit) < listLength  ) {
-        next.setAttribute("class", active);
-      } else {
-        next.setAttribute("class", inactive);
+      if (offset > 0 && (offset + limit) < allPokemonsList.length) {
+        nextButton.setAttribute("class", active);
+      } else if (offset > 0 && (offset + limit) > allPokemonsList.length){
+        nextButton.setAttribute("class", inactive);
+      }
+
+      if (offset === 0 && allPokemonsList.length <= limit) {
+        previousButton.setAttribute("class", inactive);
+        nextButton.setAttribute("class", inactive);
       }
     }
   }
