@@ -1,0 +1,14 @@
+{
+    "name": "gabidavila/pokemon-browser",
+    "description": "Pokemon Browser",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gabidavila",
+            "email": "gabidavila@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
