@@ -1,4 +1,4 @@
-const POKEMONS = {
+POKEMONS = {
    "1": {
       "name": "bulbasaur",
       "species_id": 1,

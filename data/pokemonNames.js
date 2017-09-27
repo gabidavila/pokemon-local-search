@@ -1,4 +1,4 @@
-const POKEMON_NAMES = {
+POKEMON_NAMES = {
     "bulbasaur": "1",
     "ivysaur": "2",
     "venusaur": "3",
