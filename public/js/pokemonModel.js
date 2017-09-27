@@ -1,6 +1,6 @@
 function scan (term) {
   const regexp = new RegExp(term, "i");
-  const pokemons = Object.keys(POKEMON_NAMES).filter(pokemon => {
+  const pokemons = Object.keys(POKEMON_NAMES).filter(function(pokemon) {
     return pokemon.match(regexp);
   });
   const pokemonsObj = {};
